@@ -42,6 +42,23 @@ This repo is organized into four major areas of learning:
 
 ---
 
+## 📁 Repository Structure
+
+```
+medical-terms-for-analysts/
+├── README.md                      # Project overview and learning framework
+├── LICENSE                        # License file
+├── .gitignore                     # Git ignore rules
+├── daily-lesson-template.md       # Template for structured daily lessons
+├── 1-foundations/                 # Prefixes, suffixes, and root words
+├── 2-body-systems/                # Terminology by body system
+├── 3-codings-groupings/           # ICD, CPT, DRG codes and procedures
+├── 4-insurance-context/           # Insurance and clinical context
+└── 5-summary/                     # Summary of the learning plan and progress
+```
+
+---
+
 ## 🤝 Contributing
 
 This is primarily for personal learning, but if you’re also a data/healthcare professional and want to contribute notes or examples, feel free to open a PR!  
