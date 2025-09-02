@@ -10,10 +10,10 @@
 ---
 
 ## 🧾 Definitions & Breakdown
-| Term | Meaning | Breakdown | Example in Context |
-|------|---------|-----------|--------------------|
-| **Term1** | Plain English definition | Prefix/Root/Suffix | Claim example or usage |
-| **Term2** | ... | ... | ... |
+| Term | IPA (Pronunciation) | Meaning | Breakdown | Example in Context |
+|------|----------------------|---------|-----------|--------------------|
+| **Term1** | /ˈaɪ.pi.eɪ/ | Plain English definition | Prefix/Root/Suffix | Claim example or usage |
+| **Term2** | /.../ | ... | ... | ... |
 
 ---
 
