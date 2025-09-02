@@ -13,6 +13,14 @@ As a data scientist, I often analyze hospital, medical, and ancillary claim data
 - Recognize terminology in hospital/medical claims (ICD, CPT, DRG, etc.)  
 - Build a reusable glossary and cheat sheets for future reference  
 
+## 🎮 Interactive Quiz
+
+Test your knowledge with our [interactive medical terminology quiz](https://menawang.github.io/medical-terms-for-analysts)! The quiz includes:
+- Multiple choice questions
+- Immediate feedback
+- Different categories (prefixes, suffixes, etc.)
+- Ability to combine categories for comprehensive review
+
 ---
 
 ## 📚 Learning Areas
@@ -46,24 +54,18 @@ This repo is organized into four major areas of learning:
 
 ```
 medical-terms-for-analysts/
+├── index.html                     # Quiz interface (GitHub Pages)
+├── assets/                        # Quiz assets
+│   ├── css/                       # Styling
+│   │   └── styles.css
+│   └── js/                        # Quiz logic
+│       ├── quiz.js
+│       ├── questionLoader.js
+│       └── questionData.js        # Question bank
 ├── README.md                      # Project overview and learning framework
 ├── LICENSE                        # License file
 ├── .gitignore                     # Git ignore rules
 ├── daily-lesson-template.md       # Template for structured daily lessons
-├── quiz/                          # Interactive quiz system
-│   ├── index.html                 # Quiz interface
-│   ├── css/                       # Styling
-│   │   └── styles.css
-│   ├── js/                        # Quiz logic
-│   │   ├── quiz.js
-│   │   └── questionLoader.js
-│   └── questions/                 # Question bank (JSON)
-│       ├── foundations/
-│       │   ├── prefixes.json
-│       │   ├── suffixes.json
-│       │   └── root-words.json
-│       ├── body-systems/
-│       └── codings/
 ├── 1-foundations/                 # Prefixes, suffixes, and root words
 ├── 2-body-systems/                # Terminology by body system
 ├── 3-codings-groupings/           # ICD, CPT, DRG codes and procedures
