@@ -1,0 +1,66 @@
+{
+  "category": "prefixes",
+  "description": "Common medical prefixes that modify the meaning of terms",
+  "questions": [
+    {
+      "id": "prefix-001",
+      "term": "Hyper-",
+      "question": "What does the prefix 'Hyper-' mean?",
+      "options": [
+        {"text": "Over / excessive / high", "correct": true},
+        {"text": "Under / below normal / low", "correct": false},
+        {"text": "Fast", "correct": false},
+        {"text": "Slow", "correct": false}
+      ],
+      "explanation": "Hyper- indicates excessive or above normal levels, as in hypertension (high blood pressure)"
+    },
+    {
+      "id": "prefix-002",
+      "term": "Hypo-",
+      "question": "If a patient has 'hypoglycemia,' what does the 'hypo-' prefix tell you about their blood sugar?",
+      "options": [
+        {"text": "It's too high", "correct": false},
+        {"text": "It's too low", "correct": true},
+        {"text": "It's normal", "correct": false},
+        {"text": "It's fluctuating", "correct": false}
+      ],
+      "explanation": "Hypo- means under or below normal, so hypoglycemia indicates low blood sugar"
+    },
+    {
+      "id": "prefix-003",
+      "term": "Tachy-",
+      "question": "What does 'tachycardia' mean based on the prefix 'tachy-'?",
+      "options": [
+        {"text": "Slow heart rate", "correct": false},
+        {"text": "Fast heart rate", "correct": true},
+        {"text": "Irregular heart rate", "correct": false},
+        {"text": "Normal heart rate", "correct": false}
+      ],
+      "explanation": "Tachy- means fast, so tachycardia indicates a fast heart rate"
+    },
+    {
+      "id": "prefix-004",
+      "term": "Dys-",
+      "question": "In medical terminology, what does 'dys-' typically indicate?",
+      "options": [
+        {"text": "Normal function", "correct": false},
+        {"text": "Enhanced function", "correct": false},
+        {"text": "Abnormal / difficult / impaired", "correct": true},
+        {"text": "Complete absence", "correct": false}
+      ],
+      "explanation": "Dys- indicates abnormal, difficult, or impaired functioning"
+    },
+    {
+      "id": "prefix-005",
+      "term": "Brady-",
+      "question": "If a claim shows 'bradyarrhythmia,' what does 'brady-' tell you about the heart rhythm?",
+      "options": [
+        {"text": "It's too fast", "correct": false},
+        {"text": "It's too slow", "correct": true},
+        {"text": "It's irregular", "correct": false},
+        {"text": "It's normal", "correct": false}
+      ],
+      "explanation": "Brady- means slow, so bradyarrhythmia indicates a slow heart rhythm"
+    }
+  ]
+}

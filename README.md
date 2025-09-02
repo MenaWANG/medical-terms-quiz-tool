@@ -50,6 +50,20 @@ medical-terms-for-analysts/
 ├── LICENSE                        # License file
 ├── .gitignore                     # Git ignore rules
 ├── daily-lesson-template.md       # Template for structured daily lessons
+├── quiz/                          # Interactive quiz system
+│   ├── index.html                 # Quiz interface
+│   ├── css/                       # Styling
+│   │   └── styles.css
+│   ├── js/                        # Quiz logic
+│   │   ├── quiz.js
+│   │   └── questionLoader.js
+│   └── questions/                 # Question bank (JSON)
+│       ├── foundations/
+│       │   ├── prefixes.json
+│       │   ├── suffixes.json
+│       │   └── root-words.json
+│       ├── body-systems/
+│       └── codings/
 ├── 1-foundations/                 # Prefixes, suffixes, and root words
 ├── 2-body-systems/                # Terminology by body system
 ├── 3-codings-groupings/           # ICD, CPT, DRG codes and procedures

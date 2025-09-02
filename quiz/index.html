@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Terms Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>🏥 Medical Terms Quiz</h1>
+        <p>Test your knowledge of medical terminology!</p>
+    </div>
+    
+    <div class="quiz-selector">
+        <h3>Choose Quiz Set(s):</h3>
+        <button class="selector-btn" data-category="prefixes">📝 Prefixes</button>
+        <button class="selector-btn" data-category="suffixes">📝 Suffixes</button>
+        <button class="start-btn" disabled>Start Quiz</button>
+    </div>
+    
+    <div class="quiz-container"></div>
+
+    <script src="js/questionData.js"></script>
+    <script src="js/questionLoader.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>

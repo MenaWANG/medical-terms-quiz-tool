@@ -83,7 +83,7 @@ Check off **each term** as you master it ✅
 
 ## 🚀 Overall Progress
 - [x] Learned 5 prefixes 🎉  
-- [ ] Learn 5 suffixes (next)  
+- [x] Learn 5 suffixes 🎉
 - [ ] Learn 5 root words  
 - [ ] Start body systems  
 - [ ] Start codings/groupings  
