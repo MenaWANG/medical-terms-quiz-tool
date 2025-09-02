@@ -15,11 +15,11 @@ Check off **each term** as you master it ✅
 - [x] **Dys-** (abnormal / difficult)  
 
 ### Suffixes (Part 1)
-- [ ] **-itis** (inflammation)  
-- [ ] **-ectomy** (surgical removal)  
-- [ ] **-algia** (pain)  
-- [ ] **-emia** (blood condition)  
-- [ ] **-logy** (study of)  
+- [x] **-itis** (inflammation)  
+- [x] **-ectomy** (surgical removal)  
+- [x] **-algia** (pain)  
+- [x] **-emia** (blood condition)  
+- [x] **-logy** (study of)  
 
 ### Root Words (Part 1)
 - [ ] **Cardio** (heart)  
