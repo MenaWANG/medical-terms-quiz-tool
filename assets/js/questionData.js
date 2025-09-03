@@ -130,5 +130,71 @@ const QUESTION_DATA = {
                 explanation: "-logy means the study of, so dermatology is the study of skin"
             }
         ]
+    },
+    roots: {
+        category: "roots",
+        description: "Common medical root words that form the base of medical terms",
+        questions: [
+            {
+                id: "root-001",
+                term: "Cardio",
+                question: "What body system does the root word 'cardio' refer to?",
+                options: [
+                    {text: "Nervous system", correct: false},
+                    {text: "Heart/cardiovascular system", correct: true},
+                    {text: "Digestive system", correct: false},
+                    {text: "Respiratory system", correct: false}
+                ],
+                explanation: "Cardio refers to the heart and cardiovascular system"
+            },
+            {
+                id: "root-002",
+                term: "Neuro",
+                question: "What does the root 'neuro' mean in medical terms?",
+                options: [
+                    {text: "Heart", correct: false},
+                    {text: "Blood", correct: false},
+                    {text: "Nerve/nervous system", correct: true},
+                    {text: "Muscle", correct: false}
+                ],
+                explanation: "Neuro refers to nerves or the nervous system"
+            },
+            {
+                id: "root-003",
+                term: "Derm",
+                question: "The root word 'derm' refers to which body structure?",
+                options: [
+                    {text: "Heart", correct: false},
+                    {text: "Skin", correct: true},
+                    {text: "Brain", correct: false},
+                    {text: "Bone", correct: false}
+                ],
+                explanation: "Derm refers to the skin"
+            },
+            {
+                id: "root-004",
+                term: "Gastro",
+                question: "What system does the root 'gastro' relate to?",
+                options: [
+                    {text: "Respiratory system", correct: false},
+                    {text: "Nervous system", correct: false},
+                    {text: "Digestive system", correct: true},
+                    {text: "Circulatory system", correct: false}
+                ],
+                explanation: "Gastro relates to the stomach and digestive system"
+            },
+            {
+                id: "root-005",
+                term: "Hemo/Hema",
+                question: "What does the root 'hemo' or 'hema' refer to?",
+                options: [
+                    {text: "Heart", correct: false},
+                    {text: "Brain", correct: false},
+                    {text: "Blood", correct: true},
+                    {text: "Liver", correct: false}
+                ],
+                explanation: "Hemo/hema refers to blood"
+            }
+        ]
     }
 };
