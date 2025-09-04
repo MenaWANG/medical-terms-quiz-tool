@@ -22,17 +22,32 @@ Check off **each term** as you master it ✅
 - [x] **-logy** (study of)  
 
 ### Root Words (Part 1)
-- [ ] **Cardio** (heart)  
-- [ ] **Neuro** (nerve)  
-- [ ] **Derm** (skin)  
-- [ ] **Gastro** (stomach)  
-- [ ] **Hemo/Hema** (blood)  
+- [x] **Cardio** (heart)  
+- [x] **Neuro** (nerve)  
+- [x] **Derm** (skin)  
+- [x] **Gastro** (stomach)  
+- [x] **Hemo/Hema** (blood)  
 
 ### Prefixes (Part 2)
+- [ ] **Peri-** (around / surrounding)  
+- [ ] **Trans-** (across / through)  
+- [ ] **Contra-** (against / opposite)  
+- [ ] **Endo-** (within / inner)  
+- [ ] **Sub-** (under / below)  
 
 ### Suffixes (Part 2)
+- [ ] **-osis** (condition / abnormal increase)  
+- [ ] **-pathy** (disease / disorder)  
+- [ ] **-scopy** (examination / viewing)  
+- [ ] **-plasty** (surgical repair / formation)  
+- [ ] **-gram** (record / picture)  
 
-### Root Words (Part 2） 
+### Root Words (Part 2)
+- [ ] **Pulmo/Pneumo** (lung)  
+- [ ] **Hepato** (liver)  
+- [ ] **Nephro** (kidney)  
+- [ ] **Osteo** (bone)  
+- [ ] **Myelo** (bone marrow / spinal cord)  
 
 *(…continue expanding as new lessons are added)*  
 
