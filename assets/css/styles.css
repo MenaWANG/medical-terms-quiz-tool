@@ -105,8 +105,7 @@ body {
     border: 1px solid #f5c6cb;
 }
 
-.next-btn, .start-btn {
-    background: #007bff;
+.next-btn, .start-btn, .restart-btn {
     color: white;
     border: none;
     padding: 12px 24px;
@@ -115,10 +114,23 @@ body {
     font-size: 16px;
     margin-top: 20px;
     transition: background 0.2s;
+    flex: 1;
+}
+
+.next-btn, .start-btn {
+    background: #007bff;
 }
 
 .next-btn:hover, .start-btn:hover {
     background: #0056b3;
+}
+
+.restart-btn {
+    background: #6c757d;
+}
+
+.restart-btn:hover {
+    background: #5a6268;
 }
 
 .next-btn:disabled, .start-btn:disabled {
@@ -162,18 +174,72 @@ body {
     background: #218838;
 }
 
-.restart-btn {
-    background: #6c757d;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background 0.2s;
-    margin-left: 10px;
+/* Button container for better mobile layout */
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
-.restart-btn:hover {
-    background: #5a6268;
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    
+    .header {
+        padding: 15px;
+    }
+    
+    .quiz-selector, .quiz-container {
+        padding: 20px;
+    }
+    
+    .question {
+        padding: 15px;
+    }
+    
+    /* Stack buttons vertically on mobile */
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .next-btn, .restart-btn {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    /* Ensure selector buttons wrap nicely */
+    .quiz-selector {
+        text-align: center;
+    }
+    
+    .selector-btn {
+        margin: 3px;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    .header, .quiz-selector, .quiz-container {
+        padding: 15px;
+    }
+    
+    .question {
+        padding: 12px;
+    }
+    
+    .selector-btn {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
 }

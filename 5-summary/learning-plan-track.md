@@ -29,11 +29,11 @@ Check off **each term** as you master it ✅
 - [x] **Hemo/Hema** (blood)  
 
 ### Prefixes (Part 2)
-- [ ] **Peri-** (around / surrounding)  
-- [ ] **Trans-** (across / through)  
-- [ ] **Contra-** (against / opposite)  
-- [ ] **Endo-** (within / inner)  
-- [ ] **Sub-** (under / below)  
+- [x] **Peri-** (around / surrounding)  
+- [x] **Trans-** (across / through)  
+- [x] **Contra-** (against / opposite)  
+- [x] **Endo-** (within / inner)  
+- [x] **Sub-** (under / below)  
 
 ### Suffixes (Part 2)
 - [ ] **-osis** (condition / abnormal increase)  

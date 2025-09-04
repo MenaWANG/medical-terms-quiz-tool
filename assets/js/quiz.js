@@ -60,8 +60,10 @@ class Quiz {
                 </ul>
                 <div class="feedback" style="display: none;"></div>
             </div>
-            <button class="next-btn" disabled>Next Question</button>
-            <button class="restart-btn">Restart Quiz</button>
+            <div class="button-container">
+                <button class="next-btn" disabled>Next Question</button>
+                <button class="restart-btn">Restart Quiz</button>
+            </div>
         `;
     }
 
@@ -112,7 +114,9 @@ class Quiz {
         const quizContainer = document.querySelector('.quiz-container');
         quizContainer.innerHTML = `
             <h2>🎉 Quiz Complete!</h2>
-            <button class="restart-btn">Take Another Quiz</button>
+            <div class="button-container">
+                <button class="restart-btn">Take Another Quiz</button>
+            </div>
         `;
         
         document.querySelector('.restart-btn').addEventListener('click', () => this.restartQuiz());
