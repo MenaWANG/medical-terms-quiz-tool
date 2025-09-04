@@ -62,6 +62,66 @@ const QUESTION_DATA = {
                     {text: "It's normal", correct: false}
                 ],
                 explanation: "Brady- means slow, so bradyarrhythmia indicates a slow heart rhythm"
+            },
+            {
+                id: "prefix-006",
+                term: "Peri-",
+                question: "What does the prefix 'peri-' mean in medical terms like 'pericardium'?",
+                options: [
+                    {text: "Within/inside", correct: false},
+                    {text: "Around/surrounding", correct: true},
+                    {text: "Under/below", correct: false},
+                    {text: "Across/through", correct: false}
+                ],
+                explanation: "Peri- means around or surrounding, so pericardium is the tissue surrounding the heart"
+            },
+            {
+                id: "prefix-007",
+                term: "Trans-",
+                question: "If a patient receives a 'transfusion,' what does the 'trans-' prefix indicate?",
+                options: [
+                    {text: "Blood is removed", correct: false},
+                    {text: "Blood is transferred across/through", correct: true},
+                    {text: "Blood is examined", correct: false},
+                    {text: "Blood is filtered", correct: false}
+                ],
+                explanation: "Trans- means across or through, so transfusion involves transferring blood from one person to another"
+            },
+            {
+                id: "prefix-008",
+                term: "Contra-",
+                question: "What does 'contraindication' mean in medical context?",
+                options: [
+                    {text: "A treatment is strongly recommended", correct: false},
+                    {text: "A treatment should NOT be used", correct: true},
+                    {text: "A treatment needs monitoring", correct: false},
+                    {text: "A treatment is experimental", correct: false}
+                ],
+                explanation: "Contra- means against or opposite, so contraindication means the treatment is against the indication (should not be used)"
+            },
+            {
+                id: "prefix-009",
+                term: "Endo-",
+                question: "What does an 'endoscopy' procedure involve based on the prefix 'endo-'?",
+                options: [
+                    {text: "Looking at the outside of the body", correct: false},
+                    {text: "Looking inside the body", correct: true},
+                    {text: "Looking around the body", correct: false},
+                    {text: "Looking under the skin", correct: false}
+                ],
+                explanation: "Endo- means within or inside, so endoscopy involves looking inside the body with a camera"
+            },
+            {
+                id: "prefix-010",
+                term: "Sub-",
+                question: "Where is a 'subcutaneous' injection given based on the prefix 'sub-'?",
+                options: [
+                    {text: "Into a vein", correct: false},
+                    {text: "Into a muscle", correct: false},
+                    {text: "Under the skin", correct: true},
+                    {text: "Around the skin", correct: false}
+                ],
+                explanation: "Sub- means under or below, so subcutaneous means under the skin (sub- + cutaneous)"
             }
         ]
     },
