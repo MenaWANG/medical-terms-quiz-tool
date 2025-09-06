@@ -188,6 +188,66 @@ const QUESTION_DATA = {
                     {text: "Dermatemia", correct: false}
                 ],
                 explanation: "-logy means the study of, so dermatology is the study of skin"
+            },
+            {
+                id: "suffix-006",
+                term: "-osis",
+                question: "What does the suffix '-osis' indicate in the term 'stenosis'?",
+                options: [
+                    {text: "A surgical procedure", correct: false},
+                    {text: "An abnormal condition or state", correct: true},
+                    {text: "A type of examination", correct: false},
+                    {text: "A form of treatment", correct: false}
+                ],
+                explanation: "-osis indicates a condition, state, or abnormal increase. Stenosis means an abnormal narrowing condition."
+            },
+            {
+                id: "suffix-007",
+                term: "-pathy",
+                question: "In the term 'myopathy', what does the suffix '-pathy' tell you about the muscle condition?",
+                options: [
+                    {text: "Inflammation of muscle", correct: false},
+                    {text: "Disease or disorder of muscle", correct: true},
+                    {text: "Surgical repair of muscle", correct: false},
+                    {text: "Examination of muscle", correct: false}
+                ],
+                explanation: "-pathy means disease or disorder, so myopathy indicates a disease/disorder of muscle tissue"
+            },
+            {
+                id: "suffix-008",
+                term: "-scopy",
+                question: "A doctor orders a 'bronchoscopy'. Based on the suffix '-scopy', what type of procedure is this?",
+                options: [
+                    {text: "Surgical removal of bronchi", correct: false},
+                    {text: "Visual examination of bronchi", correct: true},
+                    {text: "Treatment of bronchi", correct: false},
+                    {text: "X-ray of bronchi", correct: false}
+                ],
+                explanation: "-scopy means visual examination or viewing, so bronchoscopy is a procedure to look inside the bronchi"
+            },
+            {
+                id: "suffix-009",
+                term: "-plasty",
+                question: "What type of medical procedure is indicated by the suffix '-plasty' in 'arthroplasty'?",
+                options: [
+                    {text: "Removal of a joint", correct: false},
+                    {text: "Examination of a joint", correct: false},
+                    {text: "Surgical repair/reconstruction of a joint", correct: true},
+                    {text: "Disease of a joint", correct: false}
+                ],
+                explanation: "-plasty means surgical repair or formation, so arthroplasty is surgical repair/reconstruction of a joint"
+            },
+            {
+                id: "suffix-010",
+                term: "-gram",
+                question: "What does an 'electroencephalogram' (EEG) provide, based on the suffix '-gram'?",
+                options: [
+                    {text: "Treatment of brain activity", correct: false},
+                    {text: "Surgical procedure of the brain", correct: false},
+                    {text: "Disease of the brain", correct: false},
+                    {text: "Record/picture of brain electrical activity", correct: true}
+                ],
+                explanation: "-gram means record or picture, so an electroencephalogram provides a record of electrical activity in the brain"
             }
         ]
     },
