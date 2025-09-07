@@ -36,11 +36,11 @@ Check off **each term** as you master it ✅
 - [x] **Sub-** (under / below)  
 
 ### Suffixes (Part 2)
-- [ ] **-osis** (condition / abnormal increase)  
-- [ ] **-pathy** (disease / disorder)  
-- [ ] **-scopy** (examination / viewing)  
-- [ ] **-plasty** (surgical repair / formation)  
-- [ ] **-gram** (record / picture)  
+- [x] **-osis** (condition / abnormal increase)  
+- [x] **-pathy** (disease / disorder)  
+- [x] **-scopy** (examination / viewing)  
+- [x] **-plasty** (surgical repair / formation)  
+- [x] **-gram** (record / picture)  
 
 ### Root Words (Part 2)
 - [ ] **Pulmo/Pneumo** (lung)  
