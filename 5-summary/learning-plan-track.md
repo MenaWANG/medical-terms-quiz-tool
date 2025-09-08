@@ -43,11 +43,11 @@ Check off **each term** as you master it ✅
 - [x] **-gram** (record / picture)  
 
 ### Root Words (Part 2)
-- [ ] **Pulmo/Pneumo** (lung)  
-- [ ] **Hepato** (liver)  
-- [ ] **Nephro** (kidney)  
-- [ ] **Osteo** (bone)  
-- [ ] **Myelo** (bone marrow / spinal cord)  
+- [x] **Pulmo/Pneumo** (lung)  
+- [x] **Hepato** (liver)  
+- [x] **Nephro** (kidney)  
+- [x] **Osteo** (bone)  
+- [x] **Myelo** (bone marrow / spinal cord)  
 
 *(…continue expanding as new lessons are added)*  
 
@@ -99,7 +99,7 @@ Check off **each term** as you master it ✅
 ## 🚀 Overall Progress
 - [x] Learned 5 prefixes 🎉  
 - [x] Learn 5 suffixes 🎉
-- [ ] Learn 5 root words  
+- [x] Learn 5 root words 🎉  
 - [ ] Start body systems  
 - [ ] Start codings/groupings  
 - [ ] Start insurance/clinical context  
