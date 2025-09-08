@@ -314,6 +314,66 @@ const QUESTION_DATA = {
                     {text: "Liver", correct: false}
                 ],
                 explanation: "Hemo/hema refers to blood"
+            },
+            {
+                id: "root-006",
+                term: "Pulmo/Pneumo",
+                question: "What organ system does the root 'pulmo' or 'pneumo' refer to?",
+                options: [
+                    {text: "Heart", correct: false},
+                    {text: "Lungs/respiratory system", correct: true},
+                    {text: "Liver", correct: false},
+                    {text: "Kidneys", correct: false}
+                ],
+                explanation: "Pulmo/pneumo refers to the lungs and respiratory system"
+            },
+            {
+                id: "root-007",
+                term: "Hepato",
+                question: "In medical terminology, what organ does 'hepato' refer to?",
+                options: [
+                    {text: "Heart", correct: false},
+                    {text: "Lungs", correct: false},
+                    {text: "Liver", correct: true},
+                    {text: "Kidneys", correct: false}
+                ],
+                explanation: "Hepato refers to the liver"
+            },
+            {
+                id: "root-008",
+                term: "Nephro",
+                question: "What organ system is being referenced with the root word 'nephro'?",
+                options: [
+                    {text: "Liver", correct: false},
+                    {text: "Heart", correct: false},
+                    {text: "Lungs", correct: false},
+                    {text: "Kidneys", correct: true}
+                ],
+                explanation: "Nephro refers to the kidneys"
+            },
+            {
+                id: "root-009",
+                term: "Osteo",
+                question: "The root 'osteo' refers to which body structure?",
+                options: [
+                    {text: "Muscle", correct: false},
+                    {text: "Bone", correct: true},
+                    {text: "Nerve", correct: false},
+                    {text: "Blood", correct: false}
+                ],
+                explanation: "Osteo refers to bones"
+            },
+            {
+                id: "root-010",
+                term: "Myelo",
+                question: "What does the root word 'myelo' refer to in medical terms?",
+                options: [
+                    {text: "Bone marrow/spinal cord", correct: true},
+                    {text: "Muscle", correct: false},
+                    {text: "Brain", correct: false},
+                    {text: "Blood", correct: false}
+                ],
+                explanation: "Myelo refers to bone marrow or spinal cord"
             }
         ]
     }
