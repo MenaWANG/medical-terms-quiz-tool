@@ -91,10 +91,16 @@ function startQuiz(categories) {
     quizContainer.innerHTML = '';
     quizContainer.classList.add('active');
     
-    // Load questions for selected categories
-    const questions = categories.flatMap(category => 
+    // Load and shuffle questions from selected categories
+    let questions = categories.flatMap(category => 
         QUESTION_DATA[category]?.questions || []
     );
+    
+    // Fisher-Yates shuffle algorithm
+    for (let i = questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [questions[i], questions[j]] = [questions[j], questions[i]];
+    }
     
     if (questions.length === 0) {
         quizContainer.innerHTML = '<p>No questions available for selected categories.</p>';
@@ -157,14 +163,14 @@ function startQuiz(categories) {
                     if (currentQuestionIndex < questions.length - 1) {
                         currentQuestionIndex++;
                         displayQuestion();
-                    } else {
+        } else {
                         showResults();
-                    }
+        }
                 }, 1500);
             });
         });
     }
-    
+
     function showResults() {
         const percentage = (score / questions.length) * 100;
         quizContainer.innerHTML = `
