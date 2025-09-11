@@ -63,23 +63,62 @@ Check off **each term** as you master it ✅
 - [ ] Gastropathy
 
 ### Cardiovascular
-- [ ] Hypertension  
-- [ ] Myocardial infarction  
-- [ ] Arrhythmia  
-- [ ] Angioplasty  
+- [ ] Hypertension
+- [ ] Myocardial infarction
+- [ ] Carditis
+- [ ] Arrhythmia
+- [ ] Angioplasty
+- [ ] Tachycardia
 
 ### Respiratory
-- [ ] Asthma  
-- [ ] Pneumonia  
-- [ ] COPD (Chronic Obstructive Pulmonary Disease)  
-- [ ] Bronchitis  
+- [ ] Asthma
+- [ ] Pneumonia
+- [ ] COPD (Chronic Obstructive Pulmonary Disease)
+- [ ] Dyspnea
+- [ ] Bronchitis
+- [ ] Pneumectomy
 
-## Musculoskeletal system
-## Nervous system
-## Endocrine system
-## Genitourinary system
-## Integumentary system (skin)
-## Oncology terms
+### Musculoskeletal
+- [ ] Osteoarthritis
+- [ ] Myalgia
+- [ ] Osteoplasty
+- [ ] Periarthritis
+- [ ] Spondylosis
+
+### Nervous System
+- [ ] Neuralgia
+- [ ] Neuropathy
+- [ ] Myelopathy
+- [ ] Encephalitis
+- [ ] Neuroscopy
+
+### Endocrine System
+- [ ] Hyperglycemia
+- [ ] Hypothyroidism
+- [ ] Endocrinopathy
+- [ ] Gastroparesis
+- [ ] Thyroidectomy
+
+### Genitourinary System
+- [ ] Nephritis
+- [ ] Nephrectomy
+- [ ] Dysuria
+- [ ] Hematuria
+- [ ] Nephropathy
+
+### Integumentary System (Skin)
+- [ ] Dermatitis
+- [ ] Hyperpigmentation
+- [ ] Dermaplasty
+- [ ] Dermatoscopy
+- [ ] Melanosis
+
+### Oncology Terms
+- [ ] Hepatoma
+- [ ] Carcinoma
+- [ ] Myeloma
+- [ ] Lymphoma
+- [ ] Neoplasm
 ## Psychiatry & behavioral health
 ## Review & practice quiz
 
