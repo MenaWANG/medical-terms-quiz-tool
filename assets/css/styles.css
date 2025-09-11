@@ -144,23 +144,96 @@ body {
     color: #666;
 }
 
-.selector-btn {
-    background: #6c757d;
+/* Category buttons */
+.category-btn {
+    background: #007bff;
     color: white;
     border: none;
-    padding: 10px 20px;
-    margin: 5px;
+    width: 100%;
+    padding: 12px 20px;  /* Match the start button padding */
+    margin: 5px 0;
     border-radius: 6px;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;  /* Fixed height instead of min-height */
+    font-size: var(--font-size-base);
+    box-sizing: border-box;  /* Include padding in height calculation */
 }
 
-.selector-btn:hover {
-    background: #5a6268;
+.category-btn:hover {
+    background: #0056b3;
 }
 
-.selector-btn.active {
+.category-btn:active {
+    transform: scale(0.98);
+}
+
+.category-btn::after {
+    content: '▼';
+    font-size: 12px;
+    transition: transform 0.2s ease;
+}
+
+.category-btn--expanded::after {
+    transform: rotate(180deg);
+}
+
+/* Subcategory container */
+.subcategories {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background: #f8f9fa;
+    border-radius: 6px;
+    margin: 0 5px;
+}
+
+.subcategories--expanded {
+    max-height: 500px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Subcategory buttons */
+.subcategory-btn {
+    background: transparent;
+    color: #495057;
+    border: none;
+    width: 100%;
+    padding: 12px 15px;
+    margin: 2px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+    min-height: 44px;
+}
+
+.subcategory-btn:hover {
+    background: #e9ecef;
+}
+
+.subcategory-btn.active {
     background: #007bff;
+    color: white;
+}
+
+/* Tablet and desktop styles */
+@media (min-width: 768px) {
+    .category-btn {
+        width: auto;
+        margin: 5px;
+    }
+
+    .subcategories {
+        position: absolute;
+        width: 200px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        z-index: 100;
+    }
 }
 
 .start-btn {
