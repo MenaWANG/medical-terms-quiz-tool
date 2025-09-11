@@ -24,6 +24,41 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
+/* Container for main category buttons */
+#categoryContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Desktop layout for main categories */
+@media (min-width: 768px) {
+    #categoryContainer {
+        flex-direction: row;
+        gap: 1px;  /* Minimal separation while maintaining distinct buttons */
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    .quiz-category {
+        width: 200px;
+        position: relative;
+        margin-right: 1px;  /* Consistent with gap */
+    }
+    
+    /* Ensure dropdowns don't affect layout */
+    .subcategories {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        margin-top: 5px;
+        width: 100%;  /* Match parent width */
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);  /* Add shadow for better visibility */
+    }
+}
+
 .quiz-container {
     background: white;
     padding: 30px;
