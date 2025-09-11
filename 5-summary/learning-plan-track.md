@@ -54,6 +54,14 @@ Check off **each term** as you master it ✅
 ---
 
 ## 2. Body Systems
+
+### Digestive System
+- [ ] Gastritis
+- [ ] Appendectomy
+- [ ] Hepatitis
+- [ ] Cholecystectomy
+- [ ] Gastropathy
+
 ### Cardiovascular
 - [ ] Hypertension  
 - [ ] Myocardial infarction  
@@ -66,7 +74,6 @@ Check off **each term** as you master it ✅
 - [ ] COPD (Chronic Obstructive Pulmonary Disease)  
 - [ ] Bronchitis  
 
-## Digestive system
 ## Musculoskeletal system
 ## Nervous system
 ## Endocrine system
