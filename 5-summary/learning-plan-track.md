@@ -56,12 +56,12 @@ Check off **each term** as you master it ✅
 ## 2. Body Systems
 
 ### Cardiovascular
-- [ ] Hypertension
-- [ ] Myocardial infarction
-- [ ] Carditis
-- [ ] Arrhythmia
-- [ ] Angioplasty
-- [ ] Tachycardia
+- [x] Hypertension
+- [x] Myocardial infarction
+- [x] Carditis
+- [x] Arrhythmia
+- [x] Angioplasty
+- [x] Tachycardia
 
 ### Digestive System
 - [ ] Gastritis
