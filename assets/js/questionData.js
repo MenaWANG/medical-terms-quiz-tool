@@ -1,4 +1,70 @@
 const QUESTION_DATA = {
+    cardiovascular: {
+        category: "cardiovascular",
+        description: "Terms related to the heart and blood vessel system",
+        questions: [
+            {
+                id: "cardio-001",
+                term: "Hypertension",
+                question: "What is hypertension?",
+                options: [
+                    {text: "High blood pressure", correct: true},
+                    {text: "Low blood pressure", correct: false},
+                    {text: "Irregular heartbeat", correct: false},
+                    {text: "Fast heart rate", correct: false}
+                ],
+                explanation: "Hypertension means high blood pressure (hyper = excessive, tension = pressure)"
+            },
+            {
+                id: "cardio-002",
+                term: "Myocardial infarction",
+                question: "What condition is commonly known as a myocardial infarction?",
+                options: [
+                    {text: "Heart murmur", correct: false},
+                    {text: "Heart attack", correct: true},
+                    {text: "Heart inflammation", correct: false},
+                    {text: "Irregular heartbeat", correct: false}
+                ],
+                explanation: "Myocardial infarction is the medical term for a heart attack (death of heart muscle tissue)"
+            },
+            {
+                id: "cardio-003",
+                term: "Carditis",
+                question: "Based on the suffix '-itis', what does carditis indicate?",
+                options: [
+                    {text: "Heart removal", correct: false},
+                    {text: "Heart inflammation", correct: true},
+                    {text: "Heart pain", correct: false},
+                    {text: "Heart surgery", correct: false}
+                ],
+                explanation: "Carditis means inflammation (-itis) of the heart (card-)"
+            },
+            {
+                id: "cardio-004",
+                term: "Tachycardia",
+                question: "What does tachycardia indicate about a patient's heart rate?",
+                options: [
+                    {text: "Slow heart rate", correct: false},
+                    {text: "Irregular heart rate", correct: false},
+                    {text: "Fast heart rate", correct: true},
+                    {text: "Normal heart rate", correct: false}
+                ],
+                explanation: "Tachycardia indicates a fast (tachy-) heart (card-) rate"
+            },
+            {
+                id: "cardio-005",
+                term: "Angioplasty",
+                question: "What type of procedure is an angioplasty?",
+                options: [
+                    {text: "Heart valve replacement", correct: false},
+                    {text: "Blood vessel surgical repair", correct: true},
+                    {text: "Heart rhythm correction", correct: false},
+                    {text: "Blood pressure measurement", correct: false}
+                ],
+                explanation: "Angioplasty is the surgical repair (-plasty) of a blood vessel (angio-)"
+            }
+        ]
+    },
     prefixes: {
         category: "prefixes",
         description: "Common medical prefixes that modify the meaning of terms",

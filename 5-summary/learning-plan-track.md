@@ -55,13 +55,6 @@ Check off **each term** as you master it ✅
 
 ## 2. Body Systems
 
-### Digestive System
-- [ ] Gastritis
-- [ ] Appendectomy
-- [ ] Hepatitis
-- [ ] Cholecystectomy
-- [ ] Gastropathy
-
 ### Cardiovascular
 - [ ] Hypertension
 - [ ] Myocardial infarction
@@ -69,6 +62,13 @@ Check off **each term** as you master it ✅
 - [ ] Arrhythmia
 - [ ] Angioplasty
 - [ ] Tachycardia
+
+### Digestive System
+- [ ] Gastritis
+- [ ] Appendectomy
+- [ ] Hepatitis
+- [ ] Cholecystectomy
+- [ ] Gastropathy
 
 ### Respiratory
 - [ ] Asthma
