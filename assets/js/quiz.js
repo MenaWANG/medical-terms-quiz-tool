@@ -86,20 +86,26 @@ startButton.addEventListener('click', () => {
 });
 
 // Initialize quiz display
-function startQuiz(categories) {
+function startQuiz(categories, reviewQuestions = null) {
     // Clear previous quiz state
     quizContainer.innerHTML = '';
     quizContainer.classList.add('active');
     
-    // Load and shuffle questions from selected categories
-    let questions = categories.flatMap(category => 
-        QUESTION_DATA[category]?.questions || []
-    );
-    
-    // Fisher-Yates shuffle algorithm
-    for (let i = questions.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [questions[i], questions[j]] = [questions[j], questions[i]];
+    // Use review questions if provided, otherwise load from categories
+    let questions;
+    if (reviewQuestions) {
+        questions = reviewQuestions; // Already shuffled in the caller
+    } else {
+        // Load and shuffle questions from selected categories
+        questions = categories.flatMap(category => 
+            QUESTION_DATA[category]?.questions || []
+        );
+        
+        // Fisher-Yates shuffle algorithm
+        for (let i = questions.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [questions[i], questions[j]] = [questions[j], questions[i]];
+        }
     }
     
     if (questions.length === 0) {
@@ -110,6 +116,7 @@ function startQuiz(categories) {
     // Initialize quiz state
     let currentQuestionIndex = 0;
     let score = 0;
+    let incorrectQuestions = []; // Track incorrect questions for review
     // Track scores per category
     let categoryScores = categories.reduce((acc, category) => {
         acc[category] = { correct: 0, total: 0 };
@@ -163,7 +170,7 @@ function startQuiz(categories) {
                 feedback.textContent = question.explanation;
                 feedback.className = `feedback ${isCorrect ? 'correct' : 'incorrect'}`;
                 
-                // Update scores
+                // Update scores and track incorrect answers
                 if (isCorrect) {
                     score++;
                     // Fix: questions don't have category property, need to find it
@@ -173,6 +180,13 @@ function startQuiz(categories) {
                     if (questionCategory && categoryScores[questionCategory]) {
                         categoryScores[questionCategory].correct++;
                     }
+                } else {
+                    // Track incorrect question for review
+                    incorrectQuestions.push({
+                        question: question,
+                        userAnswer: selectedIndex,
+                        correctAnswer: question.options.findIndex(opt => opt.correct)
+                    });
                 }
                 
                 // Find question category for total count
@@ -185,13 +199,16 @@ function startQuiz(categories) {
                 
                 // Enable the next button and make it green
                 const nextButton = questionElement.querySelector('.next-btn');
-                console.log('Found next button:', nextButton); // Debug
                 if (nextButton) {
-                    console.log('Button disabled before:', nextButton.disabled); // Debug
                     nextButton.disabled = false;
-                    console.log('Button disabled after:', nextButton.disabled); // Debug
-                } else {
-                    console.error('Next button not found!');
+                    
+                    // Auto-scroll to button on mobile for better UX
+                    setTimeout(() => {
+                        nextButton.scrollIntoView({ 
+                            behavior: 'smooth', 
+                            block: 'nearest' 
+                        });
+                    }, 300); // Small delay to let feedback appear first
                 }
                 
                 // Add click handler if not already added
@@ -223,6 +240,9 @@ function startQuiz(categories) {
             })
             .join('');
 
+        const hasIncorrectQuestions = incorrectQuestions.length > 0;
+        const buttonText = hasIncorrectQuestions ? 'Review Incorrect Questions' : 'Try Again';
+        
         quizContainer.innerHTML = `
             <div class="results">
                 <h2>Quiz Complete!</h2>
@@ -231,19 +251,34 @@ function startQuiz(categories) {
                     <h3>Scores by Category:</h3>
                     ${categoryResults}
                 </div>
-                <button class="restart-btn">Try Again</button>
+                <button class="restart-btn">${buttonText}</button>
             </div>
         `;
         
-        // Handle restart button
+        // Handle restart/review button
         const restartBtn = quizContainer.querySelector('.restart-btn');
         restartBtn.addEventListener('click', () => {
-            quizContainer.classList.remove('active');
-            categoryManager.selectedSubcategories.clear();
-            document.querySelectorAll('.subcategory-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            startButton.disabled = true;
+            if (hasIncorrectQuestions) {
+                // Review incorrect questions
+                const reviewQuestions = incorrectQuestions.map(item => item.question);
+                
+                // Shuffle incorrect questions for variety
+                for (let i = reviewQuestions.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [reviewQuestions[i], reviewQuestions[j]] = [reviewQuestions[j], reviewQuestions[i]];
+                }
+                
+                // Start quiz with incorrect questions only
+                startQuiz(categories, reviewQuestions);
+            } else {
+                // Perfect score - regular restart
+                quizContainer.classList.remove('active');
+                categoryManager.selectedSubcategories.clear();
+                document.querySelectorAll('.subcategory-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                startButton.disabled = true;
+            }
         });
     }
     

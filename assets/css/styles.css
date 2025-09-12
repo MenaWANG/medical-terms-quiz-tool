@@ -362,12 +362,21 @@ body {
         padding: 15px;
     }
     
-    .quiz-selector, .quiz-container {
+    .quiz-selector {
         padding: 20px;
+    }
+    
+    .quiz-container {
+        padding: 20px;
+        padding-bottom: 60px; /* Extra space on mobile for scrolling */
     }
     
     .question {
         padding: 15px;
+    }
+    
+    .next-btn {
+        margin-bottom: 20px; /* Extra margin on mobile */
     }
     
     /* Stack buttons vertically on mobile */
