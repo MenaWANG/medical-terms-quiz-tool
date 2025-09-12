@@ -62,7 +62,7 @@ body {
 .quiz-container {
     background: white;
     padding: 30px;
-    padding-bottom: 40px;  /* Extra padding at bottom of white container */
+    padding-bottom: 50px;  /* Extra padding at bottom of white container */
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     display: none;
