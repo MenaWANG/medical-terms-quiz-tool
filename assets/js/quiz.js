@@ -110,6 +110,11 @@ function startQuiz(categories) {
     // Initialize quiz state
     let currentQuestionIndex = 0;
     let score = 0;
+    // Track scores per category
+    let categoryScores = categories.reduce((acc, category) => {
+        acc[category] = { correct: 0, total: 0 };
+        return acc;
+    }, {});
     
     function displayQuestion() {
         const question = questions[currentQuestionIndex];
@@ -126,6 +131,9 @@ function startQuiz(categories) {
                 `).join('')}
             </div>
             <div class="feedback" style="display: none;"></div>
+            <button class="next-btn" disabled>
+                ${currentQuestionIndex < questions.length - 1 ? 'Next Question →' : 'See Results →'}
+            </button>
         `;
         
         quizContainer.innerHTML = '';
@@ -149,34 +157,80 @@ function startQuiz(categories) {
                 // Disable all options
                 options.forEach(opt => opt.classList.add('disabled'));
                 
-                // Show feedback
+                // Show feedback and button
                 const feedback = questionElement.querySelector('.feedback');
                 feedback.style.display = 'block';
                 feedback.textContent = question.explanation;
                 feedback.className = `feedback ${isCorrect ? 'correct' : 'incorrect'}`;
                 
-                // Update score
-                if (isCorrect) score++;
+                // Update scores
+                if (isCorrect) {
+                    score++;
+                    // Fix: questions don't have category property, need to find it
+                    const questionCategory = categories.find(cat => 
+                        QUESTION_DATA[cat]?.questions.some(q => q.id === question.id)
+                    );
+                    if (questionCategory && categoryScores[questionCategory]) {
+                        categoryScores[questionCategory].correct++;
+                    }
+                }
                 
-                // Show next button or results
-                setTimeout(() => {
-                    if (currentQuestionIndex < questions.length - 1) {
-                        currentQuestionIndex++;
-                        displayQuestion();
+                // Find question category for total count
+                const questionCategory = categories.find(cat => 
+                    QUESTION_DATA[cat]?.questions.some(q => q.id === question.id)
+                );
+                if (questionCategory && categoryScores[questionCategory]) {
+                    categoryScores[questionCategory].total++;
+                }
+                
+                // Enable the next button and make it green
+                const nextButton = questionElement.querySelector('.next-btn');
+                console.log('Found next button:', nextButton); // Debug
+                if (nextButton) {
+                    console.log('Button disabled before:', nextButton.disabled); // Debug
+                    nextButton.disabled = false;
+                    console.log('Button disabled after:', nextButton.disabled); // Debug
+                } else {
+                    console.error('Next button not found!');
+                }
+                
+                // Add click handler if not already added
+                if (!nextButton.hasClickHandler) {
+                    nextButton.addEventListener('click', () => {
+                        if (currentQuestionIndex < questions.length - 1) {
+                            currentQuestionIndex++;
+                            displayQuestion();
         } else {
-                        showResults();
-        }
-                }, 1500);
+                            showResults();
+                        }
+                    });
+                    nextButton.hasClickHandler = true;
+                }
             });
         });
     }
 
     function showResults() {
         const percentage = (score / questions.length) * 100;
+        const categoryResults = Object.entries(categoryScores)
+            .map(([category, scores]) => {
+                const categoryPercentage = (scores.correct / scores.total * 100).toFixed(1);
+                const categoryName = QUESTION_DATA[category].description;
+                return `<div class="category-score">
+                    <span>${categoryName}:</span> 
+                    <span>${scores.correct}/${scores.total} (${categoryPercentage}%)</span>
+                </div>`;
+            })
+            .join('');
+
         quizContainer.innerHTML = `
             <div class="results">
                 <h2>Quiz Complete!</h2>
-                <p>You scored ${score} out of ${questions.length} (${percentage.toFixed(1)}%)</p>
+                <p class="total-score">Overall Score: ${score} out of ${questions.length} (${percentage.toFixed(1)}%)</p>
+                <div class="category-scores">
+                    <h3>Scores by Category:</h3>
+                    ${categoryResults}
+                </div>
                 <button class="restart-btn">Try Again</button>
             </div>
         `;
