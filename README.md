@@ -57,20 +57,52 @@ medical-terms-for-analysts/
 ├── index.html                     # Quiz interface (GitHub Pages)
 ├── assets/                        # Quiz assets
 │   ├── css/                       # Styling
-│   │   └── styles.css
+│   │   └── styles.css             # Responsive CSS with mobile-first design
 │   └── js/                        # Quiz logic
-│       ├── quiz.js
-│       ├── questionLoader.js
-│       └── questionData.js        # Question bank
-├── README.md                      # Project overview and learning framework
-├── LICENSE                        # License file
-├── .gitignore                     # Git ignore rules
-├── daily-lesson-template.md       # Template for structured daily lessons
+│       ├── categoryManager.js     # Category structure and management
+│       ├── quiz.js                # Core quiz functionality
+│       ├── questionLoader.js      # Question loading and processing
+│       └── questionData.js        # Structured question bank
 ├── 1-foundations/                 # Prefixes, suffixes, and root words
+│   ├── 1.1-prefix-1.md            # First set of prefixes
+│   ├── 1.2-suffix-1.md            # First set of suffixes
+│   ├── 1.3-root-1.md              # First set of root words
+│   ├── 1.4-prefix-2.md            # Second set of prefixes
+│   ├── 1.5-suffix-2.md            # Second set of suffixes
+│   └── 1.6-root-2.md              # Second set of root words
 ├── 2-body-systems/                # Terminology by body system
+│   └── 2.1-cardiovascular.md      # Cardiovascular system terms
 ├── 3-codings-groupings/           # ICD, CPT, DRG codes and procedures
 ├── 4-insurance-context/           # Insurance and clinical context
-└── 5-summary/                     # Summary of the learning plan and progress
+├── 5-summary/                     # Learning tracking and summaries
+│   ├── daily-lesson-template.md   # Template for structured lessons
+│   └── learning-plan-track.md     # Progress tracking
+├── .dev/                          # Development guidelines
+│   └── contribution-guide.md      # Contribution and formatting rules
+├── README.md                      # Project overview
+└── LICENSE                        # License file
+```
+
+### 🎮 Quiz Interface Structure
+
+The quiz interface now features a hierarchical organization:
+
+```
+Quiz Categories
+├── 📚 Foundations
+│   ├── 📝 Prefixes
+│   ├── 📝 Suffixes
+│   └── 🔍 Root Words
+└── 🏥 Body Systems
+    ├── ❤️ Cardiovascular
+    ├── 🫁 Respiratory
+    ├── 🫀 Digestive
+    ├── 🦴 Musculoskeletal
+    ├── 🧠 Nervous
+    ├── ⚡ Endocrine
+    ├── 🚽 Genitourinary
+    ├── 🧬 Integumentary
+    └── 🔬 Oncology
 ```
 
 ---
