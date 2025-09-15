@@ -442,5 +442,95 @@ const QUESTION_DATA = {
                 explanation: "Myelo refers to bone marrow or spinal cord"
             }
         ]
+    },
+    musculoskeletal: {
+        category: "musculoskeletal",
+        description: "Terms related to bones, muscles, joints, and spine",
+        questions: [
+            {
+                id: "musculo-001",
+                term: "Osteoarthritis",
+                question: "What does osteoarthritis primarily affect?",
+                options: [
+                    {text: "Joint cartilage and bones", correct: true},
+                    {text: "Heart muscle", correct: false},
+                    {text: "Lung tissue", correct: false},
+                    {text: "Kidney function", correct: false}
+                ],
+                explanation: "Osteoarthritis is degenerative joint disease affecting cartilage (osteo = bone, arthr = joint, itis = inflammation)"
+            },
+            {
+                id: "musculo-002",
+                term: "Myalgia",
+                question: "What symptom does myalgia describe?",
+                options: [
+                    {text: "Bone fracture", correct: false},
+                    {text: "Muscle pain", correct: true},
+                    {text: "Joint stiffness", correct: false},
+                    {text: "Nerve damage", correct: false}
+                ],
+                explanation: "Myalgia means muscle pain (my = muscle, algia = pain)"
+            },
+            {
+                id: "musculo-003",
+                term: "Cervical spine",
+                question: "Where is the cervical spine located?",
+                options: [
+                    {text: "Lower back", correct: false},
+                    {text: "Mid-back", correct: false},
+                    {text: "Neck region", correct: true},
+                    {text: "Hip area", correct: false}
+                ],
+                explanation: "Cervical spine refers to the seven vertebrae in the neck region (cervic = neck)"
+            },
+            {
+                id: "musculo-004",
+                term: "Lumbar spine",
+                question: "Which region does the lumbar spine refer to?",
+                options: [
+                    {text: "Neck", correct: false},
+                    {text: "Lower back", correct: true},
+                    {text: "Chest area", correct: false},
+                    {text: "Shoulder blade", correct: false}
+                ],
+                explanation: "Lumbar spine consists of five vertebrae in the lower back region"
+            },
+            {
+                id: "musculo-005",
+                term: "Spondylitis",
+                question: "What does spondylitis indicate?",
+                options: [
+                    {text: "Muscle weakness", correct: false},
+                    {text: "Vertebrae inflammation", correct: true},
+                    {text: "Joint replacement", correct: false},
+                    {text: "Bone fracture", correct: false}
+                ],
+                explanation: "Spondylitis means inflammation of the vertebrae/spine bones (spondyl = vertebra/spine, itis = inflammation)"
+            },
+            {
+                id: "musculo-006",
+                term: "Cervicalgia",
+                question: "What type of pain does cervicalgia describe?",
+                options: [
+                    {text: "Back pain", correct: false},
+                    {text: "Neck pain", correct: true},
+                    {text: "Leg pain", correct: false},
+                    {text: "Arm pain", correct: false}
+                ],
+                explanation: "Cervicalgia means neck pain (cervic = neck, algia = pain)"
+            },
+            {
+                id: "musculo-007",
+                term: "Lumbago",
+                question: "What condition does lumbago refer to?",
+                options: [
+                    {text: "Upper back stiffness", correct: false},
+                    {text: "Lower back pain", correct: true},
+                    {text: "Shoulder pain", correct: false},
+                    {text: "Hip arthritis", correct: false}
+                ],
+                explanation: "Lumbago refers to lower back pain, especially in the lumbar region"
+            }
+        ]
     }
 };
