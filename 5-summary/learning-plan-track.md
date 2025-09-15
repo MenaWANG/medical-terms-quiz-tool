@@ -64,17 +64,18 @@ Check off **each term** as you master it ✅
 - [x] Tachycardia
 
 ### Musculoskeletal
-- [ ] Musculoskeletal
-- [ ] Osteoarthritis
-- [ ] Myalgia
+- [x] Osteoarthritis
+- [x] Myalgia
+- [x] Cervical spine
+- [x] Lumbar spine
+- [x] Spondylitis
+- [x] Cervicalgia
+- [x] Lumbago
 - [ ] Osteoplasty
 - [ ] Periarthritis
 - [ ] Spondylosis
-- [ ] Cervical spine
-- [ ] Lumbar spine
-- [ ] Spondylitis
-- [ ] Cervicalgia
-- [ ] Lumbago
+- [ ] vertebrae
+- [ ] Musculoskeletal 
 
 ### Digestive System
 - [ ] Gastritis
