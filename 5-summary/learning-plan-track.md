@@ -79,11 +79,17 @@ Check off **each term** as you master it ✅
 - [ ] Pneumectomy
 
 ### Musculoskeletal
+- [ ] Musculoskeletal
 - [ ] Osteoarthritis
 - [ ] Myalgia
 - [ ] Osteoplasty
 - [ ] Periarthritis
 - [ ] Spondylosis
+- [ ] Cervical spine
+- [ ] Lumbar spine
+- [ ] Spondylitis
+- [ ] Cervicalgia
+- [ ] Lumbago
 
 ### Nervous System
 - [ ] Neuralgia
