@@ -63,6 +63,19 @@ Check off **each term** as you master it ✅
 - [x] Angioplasty
 - [x] Tachycardia
 
+### Musculoskeletal
+- [ ] Musculoskeletal
+- [ ] Osteoarthritis
+- [ ] Myalgia
+- [ ] Osteoplasty
+- [ ] Periarthritis
+- [ ] Spondylosis
+- [ ] Cervical spine
+- [ ] Lumbar spine
+- [ ] Spondylitis
+- [ ] Cervicalgia
+- [ ] Lumbago
+
 ### Digestive System
 - [ ] Gastritis
 - [ ] Appendectomy
@@ -78,18 +91,6 @@ Check off **each term** as you master it ✅
 - [ ] Bronchitis
 - [ ] Pneumectomy
 
-### Musculoskeletal
-- [ ] Musculoskeletal
-- [ ] Osteoarthritis
-- [ ] Myalgia
-- [ ] Osteoplasty
-- [ ] Periarthritis
-- [ ] Spondylosis
-- [ ] Cervical spine
-- [ ] Lumbar spine
-- [ ] Spondylitis
-- [ ] Cervicalgia
-- [ ] Lumbago
 
 ### Nervous System
 - [ ] Neuralgia
