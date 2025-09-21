@@ -27,9 +27,18 @@ function renderCategories() {
         // Create subcategory buttons
         category.subcategories.forEach(subcategory => {
             const subcategoryBtn = document.createElement('button');
-            subcategoryBtn.className = 'subcategory-btn';
+            const questionCount = categoryManager.getQuestionCount(subcategory.id);
+            const isAvailable = questionCount > 0;
+            
+            subcategoryBtn.className = `subcategory-btn ${isAvailable ? 'available' : 'empty'}`;
             subcategoryBtn.textContent = subcategory.label;
             subcategoryBtn.dataset.subcategory = subcategory.id;
+            
+            // Disable empty subcategories
+            if (!isAvailable) {
+                subcategoryBtn.disabled = true;
+            }
+            
             subcategoriesDiv.appendChild(subcategoryBtn);
         });
         
@@ -54,6 +63,11 @@ categoryContainer.addEventListener('click', (e) => {
     
     // Handle subcategory button clicks
     if (e.target.matches('.subcategory-btn')) {
+        // Don't handle clicks on disabled/empty subcategories
+        if (e.target.disabled || e.target.classList.contains('empty')) {
+            return;
+        }
+        
         const subcategoryId = e.target.dataset.subcategory;
         const isSelected = categoryManager.toggleSubcategory(subcategoryId);
         

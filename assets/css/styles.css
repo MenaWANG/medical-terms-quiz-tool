@@ -318,6 +318,29 @@ body {
     color: white;
 }
 
+/* Subcategory status states */
+.subcategory-btn.empty {
+    opacity: 0.5;
+    cursor: not-allowed;
+    position: relative;
+}
+
+.subcategory-btn.empty:hover {
+    background: transparent;
+    color: #495057;
+}
+
+.subcategory-btn.empty::after {
+    content: ' (Coming Soon)';
+    font-size: 0.85em;
+    color: #6c757d;
+    font-style: italic;
+}
+
+.subcategory-btn.available {
+    opacity: 1;
+}
+
 /* Tablet and desktop styles */
 @media (min-width: 768px) {
     .category-btn {

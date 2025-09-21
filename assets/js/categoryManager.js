@@ -85,6 +85,30 @@ class CategoryManager {
     getCategoryStructure() {
         return CATEGORY_STRUCTURE;
     }
+
+    /**
+     * Get question count for a subcategory
+     * @param {string} subcategoryId - The ID of the subcategory
+     * @returns {number} - Number of questions available
+     */
+    getQuestionCount(subcategoryId) {
+        // Check if QUESTION_DATA exists and has questions for this subcategory
+        if (typeof QUESTION_DATA !== 'undefined' && 
+            QUESTION_DATA[subcategoryId] && 
+            QUESTION_DATA[subcategoryId].questions) {
+            return QUESTION_DATA[subcategoryId].questions.length;
+        }
+        return 0;
+    }
+
+    /**
+     * Check if a subcategory has questions available
+     * @param {string} subcategoryId - The ID of the subcategory
+     * @returns {boolean} - True if questions are available
+     */
+    isSubcategoryAvailable(subcategoryId) {
+        return this.getQuestionCount(subcategoryId) > 0;
+    }
 }
 
 // Export for use in other modules
