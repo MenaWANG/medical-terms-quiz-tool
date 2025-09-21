@@ -78,11 +78,13 @@ Check off **each term** as you master it ✅
 - [ ] Musculoskeletal 
 
 ### Digestive System
-- [ ] Gastritis
-- [ ] Appendectomy
-- [ ] Hepatitis
-- [ ] Cholecystectomy
-- [ ] Gastropathy
+- [x] Gastritis
+- [x] Gastropathy
+- [x] Gastroenteritis
+- [x] Hepatitis
+- [x] Appendectomy
+- [x] Cholecystectomy
+- [x] Gallbladder (Cholecyst)
 
 ### Respiratory
 - [ ] Asthma
@@ -127,6 +129,7 @@ Check off **each term** as you master it ✅
 - [ ] Myeloma
 - [ ] Lymphoma
 - [ ] Neoplasm
+
 ## Psychiatry & behavioral health
 ## Review & practice quiz
 

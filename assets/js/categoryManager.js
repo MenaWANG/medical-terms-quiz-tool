@@ -14,9 +14,9 @@ const CATEGORY_STRUCTURE = {
         label: '🏥 Body Systems',
         subcategories: [
             { id: 'cardiovascular', label: '❤️ Cardiovascular' },
-            { id: 'respiratory', label: '🫁 Respiratory' },
-            { id: 'digestive', label: '🫀 Digestive' },
             { id: 'musculoskeletal', label: '🦴 Musculoskeletal' },
+            { id: 'digestive', label: '🫀 Digestive' },
+            { id: 'respiratory', label: '🫁 Respiratory' },
             { id: 'nervous', label: '🧠 Nervous' },
             { id: 'endocrine', label: '⚡ Endocrine' },
             { id: 'genitourinary', label: '🚽 Genitourinary' },

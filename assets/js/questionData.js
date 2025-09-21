@@ -532,5 +532,95 @@ const QUESTION_DATA = {
                 explanation: "Lumbago refers to lower back pain, especially in the lumbar region"
             }
         ]
+    },
+    digestive: {
+        category: "digestive",
+        description: "Terms related to the digestive system and gastrointestinal tract",
+        questions: [
+            {
+                id: "digestive-001",
+                term: "Gastritis",
+                question: "What condition is indicated by gastritis?",
+                options: [
+                    {text: "Inflammation of the stomach lining", correct: true},
+                    {text: "Removal of the stomach", correct: false},
+                    {text: "Disease of the intestines", correct: false},
+                    {text: "Stomach pain", correct: false}
+                ],
+                explanation: "Gastritis means inflammation (-itis) of the stomach (gastr-)"
+            },
+            {
+                id: "digestive-002",
+                term: "Appendectomy",
+                question: "What surgical procedure is an appendectomy?",
+                options: [
+                    {text: "Removal of the gallbladder", correct: false},
+                    {text: "Removal of the appendix", correct: true},
+                    {text: "Examination of the appendix", correct: false},
+                    {text: "Repair of the appendix", correct: false}
+                ],
+                explanation: "Appendectomy means surgical removal (-ectomy) of the appendix"
+            },
+            {
+                id: "digestive-003",
+                term: "Hepatitis",
+                question: "What organ is affected in hepatitis?",
+                options: [
+                    {text: "Stomach", correct: false},
+                    {text: "Intestines", correct: false},
+                    {text: "Liver", correct: true},
+                    {text: "Gallbladder", correct: false}
+                ],
+                explanation: "Hepatitis means inflammation (-itis) of the liver (hepat-)"
+            },
+            {
+                id: "digestive-004",
+                term: "Cholecystectomy",
+                question: "What organ is removed in a cholecystectomy?",
+                options: [
+                    {text: "Appendix", correct: false},
+                    {text: "Liver", correct: false},
+                    {text: "Gallbladder", correct: true},
+                    {text: "Stomach", correct: false}
+                ],
+                explanation: "Cholecystectomy means surgical removal (-ectomy) of the gallbladder (cholecyst-)"
+            },
+            {
+                id: "digestive-005",
+                term: "Gastropathy",
+                question: "What does the term gastropathy indicate?",
+                options: [
+                    {text: "Stomach inflammation", correct: false},
+                    {text: "Stomach removal", correct: false},
+                    {text: "Disease/disorder of the stomach", correct: true},
+                    {text: "Stomach examination", correct: false}
+                ],
+                explanation: "Gastropathy means disease or disorder (-pathy) of the stomach (gastro-)"
+            },
+            {
+                id: "digestive-006",
+                term: "Gastroenteritis",
+                question: "What is commonly referred to as 'gastro'?",
+                options: [
+                    {text: "Inflammation of the stomach only", correct: false},
+                    {text: "Inflammation of the stomach and intestines", correct: true},
+                    {text: "Any disease of the stomach", correct: false},
+                    {text: "Any disease of the intestines", correct: false}
+                ],
+                explanation: "Gastroenteritis (commonly called 'gastro') means inflammation of both the stomach (gastro-) and intestines (enter-)"
+            },
+            {
+                id: "digestive-007",
+                term: "Gallbladder",
+                question: "What is the medical term (using Greek roots) for the gallbladder?",
+                options: [
+                    {text: "Hepatocyst", correct: false},
+                    {text: "Cholecyst", correct: true},
+                    {text: "Gastrocyst", correct: false},
+                    {text: "Enterocyst", correct: false}
+                ],
+                explanation: "The medical term for gallbladder is 'cholecyst' (chole = bile/gall, cyst = sac/bladder)"
+            }
+        ]
     }
 };
