@@ -87,12 +87,23 @@ Check off **each term** as you master it ✅
 - [x] Gallbladder (Cholecyst)
 
 ### Respiratory
-- [ ] Asthma
-- [ ] Pneumonia
-- [ ] COPD (Chronic Obstructive Pulmonary Disease)
-- [ ] Dyspnea
-- [ ] Bronchitis
-- [ ] Pneumectomy
+
+Basic Anatomical Terms:
+- [ ] Bronchi (main airways in lungs)
+- [ ] Trachea (windpipe)
+- [ ] Pulmonary (relating to lungs)
+- [ ] Thorax (chest cavity)
+- [ ] Pleural (membrane around lungs)
+
+Common Symptoms & Procedures:
+- [ ] Asthma (airway inflammation)
+- [ ] Pneumonia (lung infection)
+- [ ] Dyspnea (difficulty breathing)
+- [ ] Bronchitis (bronchi inflammation)
+- [ ] Pneumectomy (lung removal)
+- [ ] Bronchoscopy (airway examination)
+- [ ] Tachypnea (rapid breathing)
+- [ ] Apnea (breathing stops)
 
 
 ### Nervous System
