@@ -94,6 +94,7 @@ Basic Anatomical Terms:
 - [ ] Pulmonary (relating to lungs)
 - [ ] Thorax (chest cavity)
 - [ ] Pleural (membrane around lungs)
+- [ ] Membrane (thin tissue layer)
 
 Common Symptoms & Procedures:
 - [ ] Asthma (airway inflammation)
