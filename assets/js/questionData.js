@@ -622,5 +622,83 @@ const QUESTION_DATA = {
                 explanation: "The medical term for gallbladder is 'cholecyst' (chole = bile/gall, cyst = sac/bladder)"
             }
         ]
+    },
+    respiratory: {
+        category: "respiratory",
+        description: "Terms related to the respiratory system and breathing anatomy",
+        questions: [
+            {
+                id: "respiratory-001",
+                term: "Bronchi",
+                question: "What are the bronchi?",
+                options: [
+                    {text: "The two main airways that carry air from the trachea into the lungs", correct: true},
+                    {text: "The small air sacs where gas exchange occurs", correct: false},
+                    {text: "The muscles that control breathing", correct: false},
+                    {text: "The membrane surrounding the lungs", correct: false}
+                ],
+                explanation: "Bronchi are the two main airways that branch from the trachea and carry air into each lung (from Greek 'bronkhos' meaning windpipe)"
+            },
+            {
+                id: "respiratory-002",
+                term: "Trachea",
+                question: "What is the trachea commonly known as?",
+                options: [
+                    {text: "Voice box", correct: false},
+                    {text: "Windpipe", correct: true},
+                    {text: "Breathing tube", correct: false},
+                    {text: "Air filter", correct: false}
+                ],
+                explanation: "The trachea is commonly called the windpipe - it's the main airway connecting the throat to the bronchi (from Greek 'trakheia' meaning rough artery)"
+            },
+            {
+                id: "respiratory-003",
+                term: "Pulmonary",
+                question: "What does the term 'pulmonary' relate to?",
+                options: [
+                    {text: "Heart function", correct: false},
+                    {text: "Lung function and diseases", correct: true},
+                    {text: "Blood circulation", correct: false},
+                    {text: "Chest muscles", correct: false}
+                ],
+                explanation: "Pulmonary relates to or affects the lungs (from Latin 'pulmonarius' meaning of the lungs). Example: pulmonary function tests measure breathing ability"
+            },
+            {
+                id: "respiratory-004",
+                term: "Thorax",
+                question: "Where is the thorax located?",
+                options: [
+                    {text: "Abdominal cavity", correct: false},
+                    {text: "Chest cavity", correct: true},
+                    {text: "Head and neck region", correct: false},
+                    {text: "Pelvic region", correct: false}
+                ],
+                explanation: "The thorax is the chest cavity that contains the heart and lungs, protected by the ribcage (from Greek 'thorax' meaning breastplate)"
+            },
+            {
+                id: "respiratory-005",
+                term: "Pleural",
+                question: "What does 'pleural' refer to in respiratory anatomy?",
+                options: [
+                    {text: "The breathing muscles", correct: false},
+                    {text: "The membrane that surrounds the lungs", correct: true},
+                    {text: "The air passages in the lungs", correct: false},
+                    {text: "The chest wall", correct: false}
+                ],
+                explanation: "Pleural refers to the membrane that surrounds the lungs (from Greek 'pleura' meaning rib, side). The pleural cavity contains fluid that helps lungs move smoothly"
+            },
+            {
+                id: "respiratory-006",
+                term: "Membrane",
+                question: "In the respiratory system, what is a membrane?",
+                options: [
+                    {text: "A thick muscle layer", correct: false},
+                    {text: "A thin sheet of tissue that covers, lines, or separates structures", correct: true},
+                    {text: "A type of blood vessel", correct: false},
+                    {text: "A breathing passage", correct: false}
+                ],
+                explanation: "A membrane is a thin sheet of tissue that covers, lines, or separates structures (from Latin 'membrana' meaning skin, parchment). The respiratory system has several important membranes including the pleural membrane"
+            }
+        ]
     }
 };
