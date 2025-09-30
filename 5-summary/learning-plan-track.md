@@ -89,12 +89,12 @@ Check off **each term** as you master it ✅
 ### Respiratory
 
 Basic Anatomical Terms:
-- [ ] Bronchi (main airways in lungs)
-- [ ] Trachea (windpipe)
-- [ ] Pulmonary (relating to lungs)
-- [ ] Thorax (chest cavity)
-- [ ] Pleural (membrane around lungs)
-- [ ] Membrane (thin tissue layer)
+- [x] Bronchi (main airways in lungs)
+- [x] Trachea (windpipe)
+- [x] Pulmonary (relating to lungs)
+- [x] Thorax (chest cavity)
+- [x] Pleural (membrane around lungs)
+- [x] Membrane (thin tissue layer)
 
 Common Symptoms & Procedures:
 - [ ] Asthma (airway inflammation)
