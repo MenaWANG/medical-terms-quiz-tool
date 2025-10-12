@@ -108,11 +108,11 @@ Common Symptoms & Procedures:
 
 
 ### Nervous System
-- [ ] Neuralgia
-- [ ] Neuropathy
-- [ ] Myelopathy
-- [ ] Encephalitis
-- [ ] Neuroscopy
+- [x] Neuralgia
+- [x] Neuropathy
+- [x] Myelopathy
+- [x] Encephalitis
+- [x] Neuroscopy
 
 ### Endocrine System
 - [ ] Hyperglycemia
