@@ -700,5 +700,71 @@ const QUESTION_DATA = {
                 explanation: "A membrane is a thin sheet of tissue that covers, lines, or separates structures (from Latin 'membrana' meaning skin, parchment). The respiratory system has several important membranes including the pleural membrane"
             }
         ]
+    },
+    nervous: {
+        category: "nervous",
+        description: "Terms related to the nervous system, brain, spinal cord, and nerves",
+        questions: [
+            {
+                id: "nervous-001",
+                term: "Neuralgia",
+                question: "What does neuralgia describe?",
+                options: [
+                    {text: "Nerve inflammation", correct: false},
+                    {text: "Sharp, shooting nerve pain", correct: true},
+                    {text: "Nerve damage", correct: false},
+                    {text: "Loss of nerve function", correct: false}
+                ],
+                explanation: "Neuralgia means sharp, shooting nerve pain (neuro = nerve, algia = pain)"
+            },
+            {
+                id: "nervous-002",
+                term: "Neuropathy",
+                question: "What condition does neuropathy indicate?",
+                options: [
+                    {text: "Nerve pain", correct: false},
+                    {text: "Disease or dysfunction of nerves", correct: true},
+                    {text: "Nerve inflammation", correct: false},
+                    {text: "Nerve examination", correct: false}
+                ],
+                explanation: "Neuropathy means disease or dysfunction of nerves (neuro = nerve, pathy = disease/disorder)"
+            },
+            {
+                id: "nervous-003",
+                term: "Myelopathy",
+                question: "What does myelopathy affect?",
+                options: [
+                    {text: "Brain tissue", correct: false},
+                    {text: "Peripheral nerves", correct: false},
+                    {text: "Spinal cord", correct: true},
+                    {text: "Muscle tissue", correct: false}
+                ],
+                explanation: "Myelopathy is disease of the spinal cord (myelo = spinal cord/bone marrow, pathy = disease)"
+            },
+            {
+                id: "nervous-004",
+                term: "Encephalitis",
+                question: "What organ is affected by encephalitis?",
+                options: [
+                    {text: "Spinal cord", correct: false},
+                    {text: "Brain", correct: true},
+                    {text: "Peripheral nerves", correct: false},
+                    {text: "Bone marrow", correct: false}
+                ],
+                explanation: "Encephalitis is inflammation of the brain (encephalo = brain, itis = inflammation)"
+            },
+            {
+                id: "nervous-005",
+                term: "Neuroscopy",
+                question: "What type of medical procedure is neuroscopy?",
+                options: [
+                    {text: "Surgical removal of nerve tissue", correct: false},
+                    {text: "Visual examination of nervous tissue", correct: true},
+                    {text: "Treatment of nerve disease", correct: false},
+                    {text: "X-ray of the nervous system", correct: false}
+                ],
+                explanation: "Neuroscopy is visual examination of nervous tissue (neuro = nerve, scopy = examination/viewing)"
+            }
+        ]
     }
 };
