@@ -15,7 +15,7 @@ This is my personal project open-sourced for everyone. Please feel free to use i
 
 ## 🎮 Interactive Quiz
 
-Test your knowledge with our [interactive medical terminology quiz](https://menawang.github.io/medical-terms-for-analysts)! The quiz includes:
+Test your knowledge with our [interactive medical terminology quiz](https://menawang.github.io/medical-terms-quiz-tool)! The quiz includes:
 - Multiple choice questions
 - Immediate feedback
 - Different categories (prefixes, suffixes, etc.)
