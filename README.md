@@ -1,8 +1,8 @@
-# Medical Terms Learning Project
+# Medical-Terms-Quiz-Tool
 
-This is my personal learning project to build fluency in **medical terminology**. Please feel free to use it, contribute to it, or fork it to create your own terminology learning project. 🤗   
+As a data scientist who wants to use my skill to do good, I am always fascinated by healthcare data: there is so much to analyze to serve the world. 🙌 Therefore, I built this quiz tool to help myself, or anyone else interested, to learn, review and build fluency in **medical terminology**. 💖
 
-As a data scientist who wants to use my skill to do good, I am always fascinated by healthcare data: there is so much to analyze to serve humanity. 🙌 This repo is my structured way to understand medical language, to help me, or anyone else interested, to bridge **clinical concepts** with **data and analytics**. 💖
+This is my personal project open-sourced for everyone. Please feel free to use it, contribute to it, or fork it to create your own terminology learning tool in any domain of interests. 🤗   
 
 ---
 
@@ -49,31 +49,13 @@ This repo is organized into three major areas of learning:
 ## 📁 Repository Structure
 
 ```
-medical-terms-for-analysts/
-├── index.html                     # Quiz interface (GitHub Pages)
-├── assets/                        # Quiz assets
-│   ├── css/                       # Styling
-│   │   └── styles.css             # Responsive CSS with mobile-first design
-│   └── js/                        # Quiz logic
-│       ├── categoryManager.js     # Category structure and management
-│       ├── quiz.js                # Core quiz functionality
-│       ├── questionLoader.js      # Question loading and processing
-│       └── questionData.js        # Structured question bank
+Medical-Terms-Quiz-Tool/
+├── index.html                     # Interactive quiz interface
+├── assets/                        # Quiz functionality (CSS, JavaScript)
 ├── 1-foundations/                 # Prefixes, suffixes, and root words
-│   ├── 1.1-prefix-1.md            # First set of prefixes
-│   ├── 1.2-suffix-1.md            # First set of suffixes
-│   ├── 1.3-root-1.md              # First set of root words
-│   ├── 1.4-prefix-2.md            # Second set of prefixes
-│   ├── 1.5-suffix-2.md            # Second set of suffixes
-│   └── 1.6-root-2.md              # Second set of root words
-├── 2-body-systems/                # Terminology by body system
-│   └── 2.1-cardiovascular.md      # Cardiovascular system terms
-├── 3-clinical-applications/       # Clinical procedures, documentation, and modern healthcare
-├── 5-summary/                     # Learning tracking and summaries
-│   ├── daily-lesson-template.md   # Template for structured lessons
-│   └── learning-plan-track.md     # Progress tracking
-├── .dev/                          # Development guidelines
-│   └── contribution-guide.md      # Contribution and formatting rules
+├── 2-body-systems/                # Medical terminology by body system
+├── 3-clinical-applications/       # Clinical procedures and modern healthcare
+├── 4-summary/                     # Learning plans and progress tracking
 ├── README.md                      # Project overview
 └── LICENSE                        # License file
 ```
@@ -112,6 +94,6 @@ Quiz Categories
 
 ## 🤝 Contributing
 
-This is primarily for personal learning, but if you’re also a data/healthcare professional and want to contribute notes or examples, feel free to open a PR!  
+This is primarily for personal learning, but if you are keen to contribute notes, examples, or any other improvements, feel free to open a PR!  
 
 
