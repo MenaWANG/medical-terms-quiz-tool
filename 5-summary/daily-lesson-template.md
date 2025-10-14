@@ -12,7 +12,7 @@
 ## 🧾 Definitions & Breakdown
 | Term | IPA (Pronunciation) | Meaning | Breakdown | Example in Context |
 |------|----------------------|---------|-----------|--------------------|
-| **Term1** | /ˈaɪ.pi.eɪ/ | Plain English definition | Prefix/Root/Suffix | Claim example or usage |
+| **Term1** | /ˈaɪ.pi.eɪ/ | Plain English definition | Prefix/Root/Suffix | Medical example or usage |
 | **Term2** | /.../ | ... | ... | ... |
 
 ---
@@ -35,7 +35,7 @@
 
 ---
 
-## 💡 Real-World Example (Claims Data)
+## 💡 Real-World Example
 - **Code**: ICD-10 / CPT / DRG example  
 - **Description**: Official description  
 - **Breakdown**: Show how the term comes from prefix/root/suffix  

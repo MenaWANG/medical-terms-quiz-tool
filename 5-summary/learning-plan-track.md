@@ -115,11 +115,14 @@ Common Symptoms & Procedures:
 - [x] Neuroscopy
 
 ### Endocrine System
-- [ ] Hyperglycemia
-- [ ] Hypothyroidism
-- [ ] Endocrinopathy
-- [ ] Gastroparesis
-- [ ] Thyroidectomy
+- [x] Diabetes mellitus
+- [x] Hyperthyroidism
+- [x] Hypothyroidism
+- [x] Thyroidectomy
+- [x] Insulin
+- [x] Hyperglycemia
+- [x] Hypoglycemia
+- [x] Endocrinopathy
 
 ### Genitourinary System
 - [ ] Nephritis
@@ -143,25 +146,61 @@ Common Symptoms & Procedures:
 - [ ] Neoplasm
 
 ## Psychiatry & behavioral health
-## Review & practice quiz
-
-*(…and so on for each body system)*  
+ 
 
 ---
 
-## 3. Codings & Groupings
-- [ ] ICD codes basics  
-- [ ] CPT codes basics  
-- [ ] DRG codes basics  
-- [ ] Ancillary services terminology  
+## 3. Clinical Applications
 
----
+### Medical Procedures & Treatments
+- [ ] Surgical procedure terminology
+- [ ] Diagnostic procedure terms
+- [ ] Treatment modality vocabulary
+- [ ] Medical intervention language
 
-## 4. Insurance & Clinical Context
-- [ ] Chronic disease examples in claims  
-- [ ] Acute conditions in claims  
-- [ ] Admission & discharge data terms  
-- [ ] Full claim case studies  
+### Healthcare Documentation
+- [ ] Medical record terminology
+- [ ] Clinical notes language
+- [ ] Assessment and diagnosis terms
+- [ ] Treatment planning vocabulary
+
+### Diagnostic & Laboratory Terms
+- [ ] Lab test terminology
+- [ ] Diagnostic imaging terms
+- [ ] Pathology language
+- [ ] Clinical measurements
+
+### Healthcare Settings & Specialties
+- [ ] Hospital departments
+- [ ] Medical specialties
+- [ ] Healthcare roles and titles
+- [ ] Care settings terminology
+
+### Personalized Care
+- [ ] Precision medicine terminology
+- [ ] Genomic medicine terms
+- [ ] Individualized treatment plans
+- [ ] Patient-centered care language
+- [ ] Biomarker terminology
+- [ ] Pharmacogenomics terms
+
+### Preventative Care
+- [ ] Screening procedures terminology
+- [ ] Wellness program language
+- [ ] Risk assessment terms
+- [ ] Health maintenance vocabulary
+- [ ] Population health terms
+- [ ] Vaccination and immunization terms
+
+### Digital Care & AI
+- [ ] Clinical twins/Digital twins
+- [ ] AI-assisted diagnosis
+- [ ] Machine learning in healthcare
+- [ ] Predictive analytics terminology
+- [ ] Telemedicine/Telehealth
+- [ ] Health informatics
+- [ ] Algorithm-based care
+- [ ] Digital therapeutics
 
 ---
 
@@ -169,6 +208,6 @@ Common Symptoms & Procedures:
 - [x] Learned 5 prefixes 🎉  
 - [x] Learn 5 suffixes 🎉
 - [x] Learn 5 root words 🎉  
-- [ ] Start body systems  
-- [ ] Start codings/groupings  
-- [ ] Start insurance/clinical context  
+- [x] Start body systems 🎉
+- [ ] Start clinical applications  
+- [ ] Complete comprehensive review  
