@@ -11,7 +11,7 @@ const CATEGORY_STRUCTURE = {
     },
     bodySystems: {
         id: 'bodySystems',
-        label: '🏥 Body Systems',
+        label: '🤓 Body Systems',
         subcategories: [
             { id: 'cardiovascular', label: '❤️ Cardiovascular' },
             { id: 'musculoskeletal', label: '🦴 Musculoskeletal' },
@@ -22,6 +22,19 @@ const CATEGORY_STRUCTURE = {
             { id: 'genitourinary', label: '🚽 Genitourinary' },
             { id: 'integumentary', label: '🧬 Integumentary' },
             { id: 'oncology', label: '🔬 Oncology' }
+        ]
+    },
+    clinicalApplications: {
+        id: 'clinicalApplications',
+        label: '🏥 Clinical Applications',
+        subcategories: [
+            { id: 'medicalProcedures', label: '🩺 Medical Procedures & Treatments' },
+            { id: 'healthcareDocumentation', label: '📋 Healthcare Documentation' },
+            { id: 'diagnosticLab', label: '🧪 Diagnostic & Laboratory Terms' },
+            { id: 'healthcareSettings', label: '🏢 Healthcare Settings & Specialties' },
+            { id: 'personalizedCare', label: '🎯 Personalized Care' },
+            { id: 'preventativeCare', label: '🛡️ Preventative Care' },
+            { id: 'digitalCareAI', label: '🤖 Digital Care & AI' }
         ]
     }
 };

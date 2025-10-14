@@ -1,8 +1,8 @@
-# Medical Terms for Analysts
+# Medical Terms Learning Project
 
-A personal learning project to build fluency in **medical terminology** with a focus on practical use in the **health insurance industry**.  
+This is my personal learning project to build fluency in **medical terminology**. Please feel free to use it, contribute to it, or fork it to create your own terminology learning project. 🤗   
 
-As a data scientist, I often analyze hospital, medical, and ancillary claim data. This repo is my structured way to understand the language behind those claims, so I can bridge **clinical concepts** with **data and analytics**.
+As a data scientist who wants to use my skill to do good, I am always fascinated by healthcare data: there is so much to analyze to serve humanity. 🙌 This repo is my structured way to understand medical language, to help me, or anyone else interested, to bridge **clinical concepts** with **data and analytics**. 💖
 
 ---
 
@@ -10,7 +10,7 @@ As a data scientist, I often analyze hospital, medical, and ancillary claim data
 
 - Learn how medical words are formed and decoded  
 - Understand common terms across body systems and specialties  
-- Recognize terminology in hospital/medical claims (ICD, CPT, DRG, etc.)  
+- Recognize terminology in healthcare documentation and medical records  
 - Build a reusable glossary and cheat sheets for future reference  
 
 ## 🎮 Interactive Quiz
@@ -25,7 +25,7 @@ Test your knowledge with our [interactive medical terminology quiz](https://mena
 
 ## 📚 Learning Areas
 
-This repo is organized into four major areas of learning:
+This repo is organized into three major areas of learning:
 
 ### 1. Foundations & Building Blocks
 - Prefixes, suffixes, and root words  
@@ -35,18 +35,14 @@ This repo is organized into four major areas of learning:
 ### 2. Body Systems
 - Terminology grouped by system (cardiovascular, respiratory, digestive, etc.)  
 - Common conditions and procedures for each  
-- Links to example claim codes  
+- Links to example medical codes  
 
-### 3. Common Claims & Procedures
-- ICD codes (diagnoses)  
-- CPT/HCPCS codes (procedures & services)  
-- DRG codes (hospital inpatient groupings)  
-- Ancillary services (labs, radiology, pharmacy)  
-
-### 4. Insurance & Clinical Context
-- How terminology shows up in claims data fields  
-- Chronic vs acute conditions in data  
-- Applying terms in case studies and real-world scenarios  
+### 3. Clinical Applications
+- Medical procedures and treatments terminology
+- Healthcare documentation language
+- Diagnostic and laboratory terms
+- Healthcare settings and specialties
+- Modern approaches: Personalized care, Preventative care, Digital care & AI  
 
 ---
 
@@ -72,8 +68,7 @@ medical-terms-for-analysts/
 │   └── 1.6-root-2.md              # Second set of root words
 ├── 2-body-systems/                # Terminology by body system
 │   └── 2.1-cardiovascular.md      # Cardiovascular system terms
-├── 3-codings-groupings/           # ICD, CPT, DRG codes and procedures
-├── 4-insurance-context/           # Insurance and clinical context
+├── 3-clinical-applications/       # Clinical procedures, documentation, and modern healthcare
 ├── 5-summary/                     # Learning tracking and summaries
 │   ├── daily-lesson-template.md   # Template for structured lessons
 │   └── learning-plan-track.md     # Progress tracking
@@ -93,16 +88,24 @@ Quiz Categories
 │   ├── 📝 Prefixes
 │   ├── 📝 Suffixes
 │   └── 🔍 Root Words
-└── 🏥 Body Systems
-    ├── ❤️ Cardiovascular
-    ├── 🫁 Respiratory
-    ├── 🫀 Digestive
-    ├── 🦴 Musculoskeletal
-    ├── 🧠 Nervous
-    ├── ⚡ Endocrine
-    ├── 🚽 Genitourinary
-    ├── 🧬 Integumentary
-    └── 🔬 Oncology
+├── 🏥 Body Systems
+│   ├── ❤️ Cardiovascular
+│   ├── 🫁 Respiratory
+│   ├── 🫀 Digestive
+│   ├── 🦴 Musculoskeletal
+│   ├── 🧠 Nervous
+│   ├── ⚡ Endocrine
+│   ├── 🚽 Genitourinary
+│   ├── 🧬 Integumentary
+│   └── 🔬 Oncology
+└── 🏥 Clinical Applications
+    ├── 🩺 Medical Procedures & Treatments
+    ├── 📋 Healthcare Documentation
+    ├── 🧪 Diagnostic & Laboratory Terms
+    ├── 🏢 Healthcare Settings & Specialties
+    ├── 🎯 Personalized Care
+    ├── 🛡️ Preventative Care
+    └── 🤖 Digital Care & AI
 ```
 
 ---

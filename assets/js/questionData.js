@@ -120,7 +120,7 @@ const QUESTION_DATA = {
             {
                 id: "prefix-005",
                 term: "Brady-",
-                question: "If a claim shows 'bradyarrhythmia,' what does 'brady-' tell you about the heart rhythm?",
+                question: "If a medical record shows 'bradyarrhythmia,' what does 'brady-' tell you about the heart rhythm?",
                 options: [
                     {text: "It's too fast", correct: false},
                     {text: "It's too slow", correct: true},
