@@ -766,5 +766,95 @@ const QUESTION_DATA = {
                 explanation: "Neuroscopy is visual examination of nervous tissue (neuro = nerve, scopy = examination/viewing)"
             }
         ]
+    },
+    endocrine: {
+        category: "endocrine",
+        description: "Terms related to the endocrine system, hormones, and metabolism",
+        questions: [
+            {
+                id: "endocrine-001",
+                term: "Hyperthyroidism",
+                question: "What does the prefix 'hyper-' indicate in hyperthyroidism?",
+                options: [
+                    {text: "Under normal function", correct: false},
+                    {text: "Excessive or above normal function", correct: true},
+                    {text: "Irregular function", correct: false},
+                    {text: "Complete absence of function", correct: false}
+                ],
+                explanation: "Hyper- means excessive or above normal, so hyperthyroidism indicates overactive thyroid gland producing excess hormones"
+            },
+            {
+                id: "endocrine-002",
+                term: "Hypothyroidism",
+                question: "What condition does hypothyroidism describe?",
+                options: [
+                    {text: "Overactive thyroid gland", correct: false},
+                    {text: "Underactive thyroid gland", correct: true},
+                    {text: "Inflamed thyroid gland", correct: false},
+                    {text: "Enlarged thyroid gland", correct: false}
+                ],
+                explanation: "Hypothyroidism means underactive thyroid gland (hypo- = under/below) producing insufficient hormones"
+            },
+            {
+                id: "endocrine-003",
+                term: "Thyroidectomy",
+                question: "What surgical procedure is a thyroidectomy?",
+                options: [
+                    {text: "Examination of the thyroid", correct: false},
+                    {text: "Surgical removal of the thyroid", correct: true},
+                    {text: "Repair of the thyroid", correct: false},
+                    {text: "Biopsy of the thyroid", correct: false}
+                ],
+                explanation: "Thyroidectomy means surgical removal (-ectomy) of all or part of the thyroid gland"
+            },
+            {
+                id: "endocrine-004",
+                term: "Hyperglycemia",
+                question: "What does the suffix '-emia' mean in hyperglycemia?",
+                options: [
+                    {text: "Muscle condition", correct: false},
+                    {text: "Blood condition", correct: true},
+                    {text: "Nerve condition", correct: false},
+                    {text: "Bone condition", correct: false}
+                ],
+                explanation: "'-emia' means blood condition, so hyperglycemia means high blood sugar (hyper- = excessive, glyc- = sugar, -emia = blood condition)"
+            },
+            {
+                id: "endocrine-005",
+                term: "Hypoglycemia",
+                question: "What emergency condition does hypoglycemia describe?",
+                options: [
+                    {text: "High blood pressure", correct: false},
+                    {text: "Low blood sugar", correct: true},
+                    {text: "High blood sugar", correct: false},
+                    {text: "Low blood pressure", correct: false}
+                ],
+                explanation: "Hypoglycemia means low blood sugar levels (hypo- = under/below, glyc- = sugar, -emia = blood condition)"
+            },
+            {
+                id: "endocrine-006",
+                term: "Insulin",
+                question: "What is insulin's primary function in the body?",
+                options: [
+                    {text: "Regulates blood pressure", correct: false},
+                    {text: "Regulates blood glucose levels", correct: true},
+                    {text: "Regulates heart rate", correct: false},
+                    {text: "Regulates breathing", correct: false}
+                ],
+                explanation: "Insulin is a hormone that regulates blood glucose levels, derived from Latin 'insula' (island) referring to islets of Langerhans in pancreas"
+            },
+            {
+                id: "endocrine-007",
+                term: "Endocrinopathy",
+                question: "What does endocrinopathy indicate?",
+                options: [
+                    {text: "Study of the endocrine system", correct: false},
+                    {text: "Any disease of the endocrine system", correct: true},
+                    {text: "Surgical removal of endocrine glands", correct: false},
+                    {text: "Normal endocrine function", correct: false}
+                ],
+                explanation: "Endocrinopathy means any disease (-pathy) of the endocrine system (endocrino- = internal secretion)"
+            }
+        ]
     }
 };
