@@ -856,5 +856,149 @@ const QUESTION_DATA = {
                 explanation: "Endocrinopathy means any disease (-pathy) of the endocrine system (endocrino- = internal secretion)"
             }
         ]
+    },
+    digitalCareAI: {
+        category: "digitalCareAI",
+        description: "Fundamental concepts and standards in digital healthcare technologies",
+        questions: [
+            {
+                id: "digital-001",
+                term: "Electronic Health Record (EHR)",
+                question: "Which standard is primarily used for healthcare data exchange between EHR systems?",
+                options: [
+                    {text: "SQL", correct: false},
+                    {text: "HL7 FHIR", correct: true},
+                    {text: "HTML5", correct: false},
+                    {text: "JPEG", correct: false}
+                ],
+                explanation: "HL7 FHIR (Fast Healthcare Interoperability Resources) is the modern standard for exchanging healthcare information electronically between different systems"
+            },
+            {
+                id: "digital-002",
+                term: "Digital Twin",
+                question: "What technical component is essential for creating accurate digital twins in healthcare?",
+                options: [
+                    {text: "High-resolution physiological models", correct: true},
+                    {text: "Social media integration", correct: false},
+                    {text: "Blockchain verification", correct: false},
+                    {text: "Virtual reality interface", correct: false}
+                ],
+                explanation: "Digital twins require high-resolution physiological models that can accurately simulate patient-specific responses based on individual data and established biological principles"
+            },
+            {
+                id: "digital-003",
+                term: "Telemedicine",
+                question: "Which technical specification is required for HIPAA-compliant telemedicine systems?",
+                options: [
+                    {text: "Open network architecture", correct: false},
+                    {text: "Public cloud storage", correct: false},
+                    {text: "End-to-end encryption", correct: true},
+                    {text: "Shared login credentials", correct: false}
+                ],
+                explanation: "HIPAA-compliant telemedicine systems require end-to-end encryption to protect patient data during transmission between the patient and healthcare provider"
+            },
+            {
+                id: "digital-004",
+                term: "Health Informatics",
+                question: "Which terminology standard is specifically designed for laboratory observations in health informatics?",
+                options: [
+                    {text: "ICD-10", correct: false},
+                    {text: "SNOMED CT", correct: false},
+                    {text: "LOINC", correct: true},
+                    {text: "CPT", correct: false}
+                ],
+                explanation: "LOINC (Logical Observation Identifiers Names and Codes) is the international standard for identifying medical laboratory observations in health informatics systems"
+            },
+            {
+                id: "digital-005",
+                term: "Digital Therapeutics",
+                question: "Under which regulatory framework are prescription digital therapeutics evaluated in the United States?",
+                options: [
+                    {text: "HIPAA Privacy Rule", correct: false},
+                    {text: "FDA Software as a Medical Device (SaMD)", correct: true},
+                    {text: "HITECH Act", correct: false},
+                    {text: "Medicare Improvement for Patients and Providers Act", correct: false}
+                ],
+                explanation: "The FDA evaluates prescription digital therapeutics under the Software as a Medical Device (SaMD) framework, which provides regulatory oversight for software intended to treat, diagnose, cure, mitigate, or prevent disease"
+            }
+        ]
+    },
+    healthcareCoding: {
+        category: "healthcareCoding",
+        description: "Healthcare coding and classification systems",
+        questions: [
+            {
+                id: "coding-001",
+                term: "ICD",
+                question: "What does ICD stand for in healthcare coding?",
+                options: [
+                    {text: "Integrated Clinical Documentation", correct: false},
+                    {text: "International Classification of Diseases", correct: true},
+                    {text: "Internal Coding Database", correct: false},
+                    {text: "Indexed Clinical Diagnoses", correct: false}
+                ],
+                explanation: "ICD stands for International Classification of Diseases, a standardized system maintained by the World Health Organization (WHO) for classifying diseases and health conditions"
+            },
+            {
+                id: "coding-002",
+                term: "DRG",
+                question: "What is the primary purpose of Diagnosis Related Groups (DRGs)?",
+                options: [
+                    {text: "To classify diseases by severity", correct: false},
+                    {text: "To document medical procedures", correct: false},
+                    {text: "To determine hospital reimbursement based on resource utilization", correct: true},
+                    {text: "To track patient outcomes", correct: false}
+                ],
+                explanation: "DRGs (Diagnosis Related Groups) are primarily used to determine hospital reimbursement by grouping patients with similar clinical characteristics and resource needs"
+            },
+            {
+                id: "coding-003",
+                term: "MDC",
+                question: "What are Major Diagnostic Categories (MDCs) in relation to DRGs?",
+                options: [
+                    {text: "Medical documentation codes used by physicians", correct: false},
+                    {text: "The first-level division of diagnoses by body system in the DRG system", correct: true},
+                    {text: "Medicare drug classifications", correct: false},
+                    {text: "Minimum documentation criteria for billing", correct: false}
+                ],
+                explanation: "Major Diagnostic Categories (MDCs) are the first level of the DRG classification system, dividing all principal diagnoses into 25 mutually exclusive categories primarily organized by body system"
+            },
+            {
+                id: "coding-004",
+                term: "HCPCS",
+                question: "What is HCPCS Level II primarily used to code for?",
+                options: [
+                    {text: "Diagnoses", correct: false},
+                    {text: "Medical procedures", correct: false},
+                    {text: "Durable medical equipment, supplies, and non-physician services", correct: true},
+                    {text: "Hospital room and board", correct: false}
+                ],
+                explanation: "HCPCS (Healthcare Common Procedure Coding System) Level II is used to code for durable medical equipment, medical supplies, and non-physician services not covered by CPT codes"
+            },
+            {
+                id: "coding-005",
+                term: "ICD-10",
+                question: "Which organization maintains the base classification of ICD-10?",
+                options: [
+                    {text: "American Medical Association", correct: false},
+                    {text: "World Health Organization", correct: true},
+                    {text: "Centers for Medicare and Medicaid Services", correct: false},
+                    {text: "International Standards Organization", correct: false}
+                ],
+                explanation: "The World Health Organization (WHO) maintains the base classification of ICD-10, while individual countries often develop their own clinical modifications (such as ICD-10-CM in the United States)"
+            },
+            {
+                id: "coding-006",
+                term: "DRG International",
+                question: "How are DRGs used internationally?",
+                options: [
+                    {text: "All countries use the exact same DRG system", correct: false},
+                    {text: "DRGs are only used in the United States", correct: false},
+                    {text: "Many countries adapt the DRG concept with country-specific versions", correct: true},
+                    {text: "DRGs are being phased out globally", correct: false}
+                ],
+                explanation: "While the DRG concept originated in the United States, many countries have adapted it with their own country-specific versions, such as AR-DRGs in Australia, G-DRGs in Germany, and HRGs in the UK"
+            }
+        ]
     }
 };
