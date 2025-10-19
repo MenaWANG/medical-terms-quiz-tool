@@ -158,11 +158,14 @@ Common Symptoms & Procedures:
 - [ ] Treatment modality vocabulary
 - [ ] Medical intervention language
 
-### Healthcare Documentation
+### Healthcare Coding
+- [x] ICD (International Classification of Diseases)
+- [x] MDC (Major Diagnostic Categories)
+- [x] DRG (Diagnosis Related Groups)
+- [x] HCPCS (Healthcare Common Procedure Coding System)
 - [ ] Medical record terminology
 - [ ] Clinical notes language
 - [ ] Assessment and diagnosis terms
-- [ ] Treatment planning vocabulary
 
 ### Diagnostic & Laboratory Terms
 - [ ] Lab test terminology
@@ -193,14 +196,14 @@ Common Symptoms & Procedures:
 - [ ] Vaccination and immunization terms
 
 ### Digital Care & AI
-- [ ] Clinical twins/Digital twins
-- [ ] AI-assisted diagnosis
-- [ ] Machine learning in healthcare
-- [ ] Predictive analytics terminology
-- [ ] Telemedicine/Telehealth
-- [ ] Health informatics
-- [ ] Algorithm-based care
-- [ ] Digital therapeutics
+- [x] Electronic Health Records (EHR)
+- [x] Digital twins/Clinical twins
+- [x] Telemedicine/Telehealth
+- [x] Health informatics
+- [x] Digital therapeutics
+- [ ] Healthcare IT Standards
+- [ ] Interoperability frameworks
+- [ ] Clinical decision support systems
 
 ---
 
@@ -209,5 +212,5 @@ Common Symptoms & Procedures:
 - [x] Learn 5 suffixes 🎉
 - [x] Learn 5 root words 🎉  
 - [x] Start body systems 🎉
-- [ ] Start clinical applications  
+- [x] Start clinical applications 🎉  
 - [ ] Complete comprehensive review  

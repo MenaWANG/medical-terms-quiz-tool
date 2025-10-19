@@ -34,7 +34,8 @@ const CATEGORY_STRUCTURE = {
             { id: 'healthcareSettings', label: '🏢 Healthcare Settings & Specialties' },
             { id: 'personalizedCare', label: '🎯 Personalized Care' },
             { id: 'preventativeCare', label: '🛡️ Preventative Care' },
-            { id: 'digitalCareAI', label: '🤖 Digital Care & AI' }
+            { id: 'digitalCareAI', label: '🤖 Digital Care & AI' },
+            { id: 'healthcareCoding', label: '🏷️ Healthcare Coding Systems' }
         ]
     }
 };
