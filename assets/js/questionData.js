@@ -998,6 +998,30 @@ const QUESTION_DATA = {
                     {text: "DRGs are being phased out globally", correct: false}
                 ],
                 explanation: "While the DRG concept originated in the United States, many countries have adapted it with their own country-specific versions, such as AR-DRGs in Australia, G-DRGs in Germany, and HRGs in the UK"
+            },
+            {
+                id: "coding-007",
+                term: "MDC-ICD Relationship",
+                question: "How are ICD codes related to MDC assignment?",
+                options: [
+                    {text: "ICD codes are derived from MDC categories", correct: false},
+                    {text: "MDC assignment is based on the principal diagnosis ICD code", correct: true},
+                    {text: "ICD and MDC are independent coding systems with no direct relationship", correct: false},
+                    {text: "MDC codes must be converted to ICD codes for billing", correct: false}
+                ],
+                explanation: "MDC assignment is based on the principal diagnosis ICD code. The ICD code of the patient's primary diagnosis determines which of the 25 MDC categories the case falls into."
+            },
+            {
+                id: "coding-008",
+                term: "Coding Workflow",
+                question: "In the healthcare coding workflow, what is the correct sequence?",
+                options: [
+                    {text: "MDC → ICD → DRG → Reimbursement", correct: false},
+                    {text: "ICD → MDC → DRG → Reimbursement", correct: true},
+                    {text: "DRG → MDC → ICD → Reimbursement", correct: false},
+                    {text: "ICD → DRG → MDC → Reimbursement", correct: false}
+                ],
+                explanation: "The correct coding workflow sequence is: ICD (diagnosis code) → MDC (Major Diagnostic Category) → DRG (Diagnosis Related Group) → Reimbursement. The principal diagnosis is first coded with ICD, then assigned to an MDC, which helps determine the appropriate DRG for reimbursement."
             }
         ]
     }
