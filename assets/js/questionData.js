@@ -698,6 +698,90 @@ const QUESTION_DATA = {
                     {text: "A breathing passage", correct: false}
                 ],
                 explanation: "A membrane is a thin sheet of tissue that covers, lines, or separates structures (from Latin 'membrana' meaning skin, parchment). The respiratory system has several important membranes including the pleural membrane"
+            },
+            {
+                id: "respiratory-007",
+                term: "Asthma",
+                question: "What is asthma?",
+                options: [
+                    {text: "A lung infection", correct: false},
+                    {text: "A chronic condition causing airway inflammation and narrowing", correct: true},
+                    {text: "Fluid in the lungs", correct: false},
+                    {text: "A collapsed lung", correct: false}
+                ],
+                explanation: "Asthma is a chronic respiratory condition that causes inflammation and narrowing of the airways, leading to wheezing, coughing, and difficulty breathing"
+            },
+            {
+                id: "respiratory-008",
+                term: "Pneumonia",
+                question: "What does pneumonia involve?",
+                options: [
+                    {text: "Infection that inflames air sacs in the lungs", correct: true},
+                    {text: "Chronic airway narrowing", correct: false},
+                    {text: "Rapid breathing only", correct: false},
+                    {text: "Surgical removal of lung tissue", correct: false}
+                ],
+                explanation: "Pneumonia is an infection that inflames the air sacs (alveoli) in one or both lungs, which may fill with fluid or pus (pneumo = lung, -ia = condition)"
+            },
+            {
+                id: "respiratory-009",
+                term: "Dyspnea",
+                question: "What does the term dyspnea describe?",
+                options: [
+                    {text: "Fast breathing", correct: false},
+                    {text: "Difficulty or labored breathing", correct: true},
+                    {text: "Stopped breathing", correct: false},
+                    {text: "Normal breathing", correct: false}
+                ],
+                explanation: "Dyspnea means difficulty or labored breathing (dys- = difficult/abnormal + -pnea = breathing). It's a common symptom in many respiratory and cardiac conditions"
+            },
+            {
+                id: "respiratory-010",
+                term: "Bronchitis",
+                question: "Based on the suffix '-itis', what does bronchitis indicate?",
+                options: [
+                    {text: "Surgical removal of bronchi", correct: false},
+                    {text: "Inflammation of the bronchi", correct: true},
+                    {text: "Examination of the bronchi", correct: false},
+                    {text: "Narrowing of the bronchi", correct: false}
+                ],
+                explanation: "Bronchitis means inflammation (-itis) of the bronchi (main airways). It can be acute (short-term) or chronic (long-term)"
+            },
+            {
+                id: "respiratory-011",
+                term: "Tachypnea",
+                question: "What does tachypnea indicate about a patient's breathing?",
+                options: [
+                    {text: "Slow breathing rate", correct: false},
+                    {text: "Abnormally rapid breathing", correct: true},
+                    {text: "Difficult breathing", correct: false},
+                    {text: "Stopped breathing", correct: false}
+                ],
+                explanation: "Tachypnea means abnormally rapid breathing (tachy- = fast + -pnea = breathing). Normal adult breathing rate is 12-20 breaths per minute"
+            },
+            {
+                id: "respiratory-012",
+                term: "Pneumectomy",
+                question: "What procedure does pneumectomy refer to?",
+                options: [
+                    {text: "Examination of the lungs", correct: false},
+                    {text: "Surgical removal of lung tissue", correct: true},
+                    {text: "Inflation of collapsed lungs", correct: false},
+                    {text: "Cleaning of the airways", correct: false}
+                ],
+                explanation: "Pneumectomy is the surgical removal (-ectomy) of lung tissue (pneumo-). It may involve removing part of a lung or an entire lung"
+            },
+            {
+                id: "respiratory-013",
+                term: "Bronchoscopy",
+                question: "What is bronchoscopy used for?",
+                options: [
+                    {text: "Surgical repair of airways", correct: false},
+                    {text: "Visual examination of the airways", correct: true},
+                    {text: "Removal of lung tissue", correct: false},
+                    {text: "Measurement of lung capacity", correct: false}
+                ],
+                explanation: "Bronchoscopy is a procedure to visually examine (-scopy) the airways (broncho-) using a flexible tube with a camera called a bronchoscope"
             }
         ]
     },
