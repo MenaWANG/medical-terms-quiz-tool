@@ -157,6 +157,7 @@ Common Symptoms & Procedures:
 - [ ] Diagnostic procedure terms
 - [ ] Treatment modality vocabulary
 - [ ] Medical intervention language
+- [x] Essential Clinical Terminology 
 
 ### Healthcare Coding
 - [x] ICD (International Classification of Diseases)
