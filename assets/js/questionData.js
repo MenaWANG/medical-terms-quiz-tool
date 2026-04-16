@@ -1108,5 +1108,71 @@ const QUESTION_DATA = {
                 explanation: "The correct coding workflow sequence is: ICD (diagnosis code) → MDC (Major Diagnostic Category) → DRG (Diagnosis Related Group) → Reimbursement. The principal diagnosis is first coded with ICD, then assigned to an MDC, which helps determine the appropriate DRG for reimbursement."
             }
         ]
+    },
+    medicalProcedures: {
+        category: "medicalProcedures",
+        description: "Essential clinical terminology for working with medical data",
+        questions: [
+            {
+                id: "procedures-001",
+                term: "Anesthesia",
+                question: "What does the term 'anesthesia' literally mean based on its word parts?",
+                options: [
+                    {text: "Before sensation", correct: false},
+                    {text: "Without sensation", correct: true},
+                    {text: "Through sensation", correct: false},
+                    {text: "Around sensation", correct: false}
+                ],
+                explanation: "Anesthesia breaks down as an- (without) + esthesia (sensation). It refers to medication or techniques that eliminate pain sensation during surgical procedures or other medical interventions."
+            },
+            {
+                id: "procedures-002",
+                term: "Diagnosis",
+                question: "In a clinical dataset, a patient's primary reason for hospitalization is recorded using an ICD-10 code. What term describes this identified condition?",
+                options: [
+                    {text: "Prognosis", correct: false},
+                    {text: "Etiology", correct: false},
+                    {text: "Diagnosis", correct: true},
+                    {text: "Comorbidity", correct: false}
+                ],
+                explanation: "Diagnosis (dia- meaning through + gnosis meaning knowledge) is the identification of a disease or condition. In medical data, the primary diagnosis is captured as an ICD-10 code and is the foundation of all clinical analytics and risk stratification."
+            },
+            {
+                id: "procedures-003",
+                term: "Prognosis",
+                question: "A machine learning model predicts whether a cancer patient will survive the next five years. Which clinical concept is the model estimating?",
+                options: [
+                    {text: "Etiology", correct: false},
+                    {text: "Prognosis", correct: true},
+                    {text: "Diagnosis", correct: false},
+                    {text: "Anesthesia", correct: false}
+                ],
+                explanation: "Prognosis (pro- meaning before + gnosis meaning knowledge) refers to the predicted outcome or course of a disease. It is often the target variable in survival analysis, readmission prediction, and other healthcare ML models."
+            },
+            {
+                id: "procedures-004",
+                term: "Comorbidity",
+                question: "The Charlson Comorbidity Index assigns scores to patients based on additional conditions they have alongside their primary illness. What clinical term describes these additional co-existing conditions?",
+                options: [
+                    {text: "Etiology", correct: false},
+                    {text: "Prognosis", correct: false},
+                    {text: "Diagnosis", correct: false},
+                    {text: "Comorbidity", correct: true}
+                ],
+                explanation: "Comorbidity (co- meaning together + morbid meaning disease + -ity meaning condition) refers to having two or more diseases simultaneously. It is a key feature in risk adjustment models and tools like the Charlson Comorbidity Index, which is widely used in healthcare analytics."
+            },
+            {
+                id: "procedures-005",
+                term: "Etiology",
+                question: "An epidemiologist is studying why a specific patient population develops heart failure at higher rates. Which term describes what they are investigating?",
+                options: [
+                    {text: "Prognosis", correct: false},
+                    {text: "Comorbidity", correct: false},
+                    {text: "Etiology", correct: true},
+                    {text: "Diagnosis", correct: false}
+                ],
+                explanation: "Etiology (etio- meaning cause + -logy meaning study of) refers to the cause or origin of a disease. Understanding etiology is critical for causal inference models, epidemiological studies, and root cause analysis in healthcare data science."
+            }
+        ]
     }
 };
